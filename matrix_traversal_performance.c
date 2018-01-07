@@ -2,6 +2,15 @@
 #include "time.h"
 
 /*
+ * Date: 2017-01-04
+ *
+ * Description:
+ * Traversing 2-D array row wise is more efficient because c implements 2-D
+ * array as 1-D array so row wise traversal becomes sequencial traversal of
+ * 1-D array. And C chaches 16-bytes of memory so read operation reduces by 16
+ * times.
+ *
+ *
  * Reference: https://stackoverflow.com/questions/9936132/why-does-the-order-of-the-loops-affect-performance-when-iterating-over-a-2d-arra
  */
 
@@ -9,12 +18,12 @@
 
 void timestamp() {
     time_t ltime; /* calendar time */
-    ltime=time(NULL); /* get current cal time */
-    printf("%s",asctime( localtime(&ltime) ) );
+    ltime = time(NULL); /* get current cal time */
+    printf("%s", asctime(localtime(&ltime)));
 }
 
-row_wise () {
-  int i,j;
+void row_wise() {
+  int i, j;
   static int x[SIZE][SIZE];
   for (j = 0; j < SIZE; j++) {
      for (i = 0; i < SIZE; i++) {
@@ -23,7 +32,7 @@ row_wise () {
    }
 }
 
-column_wise () {
+void column_wise() {
   int i,j;
   static int x[SIZE][SIZE];
   for (i = 0; i < SIZE; i++) {
