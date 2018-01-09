@@ -6,6 +6,8 @@
 # This snippet of script will combine the first page of all PDF files present in
 # current directory/sub-directories.
 # Output file will be: $OUTPUT_FILE_NAME.
+# 
+# Usage: sh merge_all_pdfs_first_page.sh
 #
 # Prerequisit: pdftk should be installed.
 #
