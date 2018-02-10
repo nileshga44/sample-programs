@@ -4,3 +4,4 @@
 - [Unpack list and dictionary](unpack_list_dict.py): How to unpack list and dictionaries when passed as function arguments.
 - [Send mail using SMTP](sendmail.py): Script to send mail using SMTP from linux machine.
 - [Pass string values to SQL query](string_params_in_sql.py): Pass multiple string parameters to SQL query.
+- [Function pointers in C](function_pointer_arrays.c): Function pointer array in C language.
