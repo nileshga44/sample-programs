@@ -5,3 +5,4 @@
 - [Send mail using SMTP](sendmail.py): Script to send mail using SMTP from linux machine.
 - [Pass string values to SQL query](string_params_in_sql.py): Pass multiple string parameters to SQL query.
 - [Function pointers in C](function_pointer_arrays.c): Function pointer array in C language.
+- [Function pointer in python](python_function_pointer.py): How to use function pointer(As in C language) in python.
