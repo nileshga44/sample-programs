@@ -9,3 +9,4 @@
 - [Matrix as 1-D array](matrix_as_1d_array.c): Demonstration of matrix as 1-D array.
 - [Run shell command in C](get_pid_of_other_process.c): Run shell command in C program and gather the output, Eg: Find PID of a running process.
 - [Delete a line](delete_a_line.c): Delete a line from file using line number.
+- [Block scope in C](var_block_scope.c): Block scope of variable in C.
