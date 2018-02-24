@@ -40,3 +40,7 @@ Share public key to destination machine to scp/ssh without password:
 		ssh-keygen
 	2. Copy generated public key to destinations authorized key:
 		cat /var/lib/jenkins/.ssh/id_rsa.pub | ssh klocwork@172.16.105.244 'cat >> .ssh/authorized_keys'
+
+
+If you have a list of directories out of which you have to delete all except one, you can use the following command:
+  rm -rf !("do_not_delete_this_directory")
