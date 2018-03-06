@@ -12,3 +12,4 @@
 - [Block scope in C](var_block_scope.c): Block scope of variable in C.
 - [Fibonacci number, memoized](memoized_fibonacci.py): Performance comparison to find nth fibonacci(using recursive approach) number with and without memoization.
 - [Compare database](db_cmp.sh): Compares 2 sqlite3 database files.
+- [Check database integrity](db_backup.sh): Checks sqlite3 database integrity and copies from backup if corrupted.
