@@ -11,3 +11,4 @@
 - [Delete a line](delete_a_line.c): Delete a line from file using line number.
 - [Block scope in C](var_block_scope.c): Block scope of variable in C.
 - [Fibonacci number, memoized](memoized_fibonacci.py): Performance comparison to find nth fibonacci(using recursive approach) number with and without memoization.
+- [Compare database](db_cmp.sh): Compares 2 sqlite3 database files.
