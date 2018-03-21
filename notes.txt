@@ -44,3 +44,5 @@ Share public key to destination machine to scp/ssh without password:
 
 If you have a list of directories out of which you have to delete all except one, you can use the following command:
   rm -rf !("do_not_delete_this_directory")
+
+Block all domains: https://github.com/jmdugan/blocklists/blob/master/corporations/facebook/all
