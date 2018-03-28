@@ -1,48 +1,48 @@
 Extract rpm:
-rpm2cpio php-5.1.4-1.esp1.x86_64.rpm | cpio -idmv
+  rpm2cpio php-5.1.4-1.esp1.x86_64.rpm | cpio -idmv
 
 List contents of installed RPM:
-rpm -ql HSS
+  rpm -ql HSS
 
 List contents of a RPM:
-rpm -qlpv HSS-2.5.6.0.0-1.x86_64.elf6.rpm
+  rpm -qlpv HSS-2.5.6.0.0-1.x86_64.elf6.rpm
 
 To check ports allocated to http:
   semanage port -l | grep http
 
 To compile with pgrof:
-	- Use gcc flags "-p -pg" for compiling and linking
+	Use gcc flags "-p -pg" for compiling and linking
 
 Get top output on console:
   top -b -n 1 -p <pid>
 
 List contents of tar:
-tar -tf tar_name
+  tar -tf tar_name
 
 Valgrind:
   valgrind --tool=memcheck --leak-check=yes --show-reachable=yes -v ./hssStub -m Load
 
 Callgrind:
- valgrind --tool=callgrind program-to-run program-arguments 
- callgrind_annotate --auto=yes callgrind.out.pid 
- Other options : 
- 	--tree=both(prints, for each functions, their callers and the called functions)
-  --threshold=100(will print all the events)
+  valgrind --tool=callgrind program-to-run program-arguments
+  callgrind_annotate --auto=yes callgrind.out.pid
+  Other options:
+ 	  --tree=both (prints, for each functions, their callers and the called functions)
+    --threshold=100 (will print all the events)
 
 CVS:
   export CVSROOT=:pserver:gur29510@10.203.155.20:/home/lte_epc
 
-mysqld not able to start, shows just warning ([Warning] The syntax for replication startup options is deprecated and will be removed in MySQL 5.2. Please use 'CHANGE MASTER' instead) in mysqld.log - Use below command to fix: 
-chown -R mysql:mysql /tmp
-
 Share public key to destination machine to scp/ssh without password:
-	1. Generate public key 
-		ssh-keygen
+  1. Generate public key
+	  ssh-keygen
 	2. Copy generated public key to destinations authorized key:
 		cat /var/lib/jenkins/.ssh/id_rsa.pub | ssh klocwork@172.16.105.244 'cat >> .ssh/authorized_keys'
-
 
 If you have a list of directories out of which you have to delete all except one, you can use the following command:
   rm -rf !("do_not_delete_this_directory")
 
-Block all domains: https://github.com/jmdugan/blocklists/blob/master/corporations/facebook/all
+Block all domains:
+  https://github.com/jmdugan/blocklists/blob/master/corporations/facebook/all
+
+Command to see all logged in users on machine and what they are doing:
+  w
