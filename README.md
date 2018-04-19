@@ -14,3 +14,4 @@
 - [Compare database](db_cmp.sh): Compares 2 sqlite3 database files.
 - [Check database integrity](db_backup.sh): Checks sqlite3 database integrity and copies from backup if corrupted.
 - [Replace strings](replace.sh): Replaces set of strings to corresponding new ones.
+- [Named-tuples](named_tuple.py): Few snippets to work with named tuples in python.
