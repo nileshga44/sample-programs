@@ -16,3 +16,5 @@
 - [Replace strings](replace.sh): Replaces set of strings to corresponding new ones.
 - [Named-tuples](named_tuple.py): Few snippets to work with named tuples in python.
 - [Connect MySQL](connect_mysql.c): Connect with mysql and execute sample query.
+- [List comprehensions](list_comprehensions.py): List comprehension examples.
+- [Optional mutable arguments](mutable_arguments_ctxt.py): Optional mutable arguments retains its value in subsequent calls.
