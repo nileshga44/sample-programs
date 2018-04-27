@@ -18,3 +18,4 @@
 - [Connect MySQL](connect_mysql.c): Connect with mysql and execute sample query.
 - [List comprehensions](list_comprehensions.py): List comprehension examples.
 - [Optional mutable arguments](mutable_arguments_ctxt.py): Optional mutable arguments retains its value in subsequent calls.
+- [Connect MySQL in python](connect_mysql.py): Python program to connect and execute query on MySQL.
