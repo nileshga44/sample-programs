@@ -2,7 +2,7 @@
 #include "time.h"
 
 /*
- * Date: 2017-01-04
+ * Date: 2018-01-04
  *
  * Description:
  * Traversing 2-D array row wise is more efficient because c implements 2-D
