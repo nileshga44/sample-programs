@@ -11,6 +11,9 @@
 # In slots list we can specify the list of attributes allowed on an object which
 # ultimately makes attribute dictionary static as now it will know all
 # attributes allowed in advance hence saves large amount of memory.
+#
+# Reference:
+# https://www.python-course.eu/python3_slots.php
 
 
 class A(object):
