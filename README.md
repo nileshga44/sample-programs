@@ -18,3 +18,4 @@
 - [Connect MySQL](connect_mysql.c): Connect with mysql and execute sample query.
 - [List comprehensions](list_comprehensions.py): List comprehension examples.
 - [Optional mutable arguments](mutable_arguments_ctxt.py): Optional mutable arguments retains its value in subsequent calls.
+- [Slots usage in python](slots_usage.py): __slots__ usage in python, Used to save memory when large number of objects are created.
