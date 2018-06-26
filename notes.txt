@@ -46,3 +46,6 @@ Block all domains:
 
 Command to see all logged in users on machine and what they are doing:
   w
+
+Get weather:
+  curl wttr.in/delhi?lang=en
