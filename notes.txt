@@ -49,3 +49,6 @@ Command to see all logged in users on machine and what they are doing:
 
 Get weather:
   curl wttr.in/delhi?lang=en
+
+Save git username and password for future:
+  git config credential.helper store
