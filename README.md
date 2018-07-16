@@ -20,3 +20,4 @@
 - [Optional mutable arguments](mutable_arguments_ctxt.py): Optional mutable arguments retains its value in subsequent calls.
 - [Connect MySQL in python](connect_mysql.py): Python program to connect and execute query on MySQL.
 - [Slots usage in python](slots_usage.py): __slots__ usage in python, Used to save memory when large number of objects are created.
+- [Print timestamp in C](print_timestamp.c): Print time stamp with milliseconds precision.
