@@ -23,3 +23,4 @@
 - [Print timestamp in C](print_timestamp.c): Print time stamp with milliseconds precision.
 - [Map, filter, reduce](map_filter_reduce.py): Map, filter and reduce in python.
 - [NULL pointer in C](null_pointer.c): NULL pointer in C.
+- [Memset in C](my_memset.c): Memset demo in C.
