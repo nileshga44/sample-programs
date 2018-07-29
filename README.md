@@ -22,3 +22,4 @@
 - [Slots usage in python](slots_usage.py): __slots__ usage in python, Used to save memory when large number of objects are created.
 - [Print timestamp in C](print_timestamp.c): Print time stamp with milliseconds precision.
 - [Map, filter, reduce](map_filter_reduce.py): Map, filter and reduce in python.
+- [NULL pointer in C](null_pointer.c): NULL pointer in C.
