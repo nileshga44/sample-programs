@@ -21,3 +21,4 @@
 - [Connect MySQL in python](connect_mysql.py): Python program to connect and execute query on MySQL.
 - [Slots usage in python](slots_usage.py): __slots__ usage in python, Used to save memory when large number of objects are created.
 - [Print timestamp in C](print_timestamp.c): Print time stamp with milliseconds precision.
+- [Map, filter, reduce](map_filter_reduce.py): Map, filter and reduce in python.
