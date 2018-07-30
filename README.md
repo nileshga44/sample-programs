@@ -24,3 +24,4 @@
 - [Map, filter, reduce](map_filter_reduce.py): Map, filter and reduce in python.
 - [NULL pointer in C](null_pointer.c): NULL pointer in C.
 - [Memset in C](my_memset.c): Memset demo in C.
+- [Print long string in C](print_long_strings.c): Print long string in C.
