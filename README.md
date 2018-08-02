@@ -25,3 +25,5 @@
 - [NULL pointer in C](null_pointer.c): NULL pointer in C.
 - [Memset in C](my_memset.c): Memset demo in C.
 - [Print long string in C](print_long_strings.c): Print long string in C.
+- [Comma operator in C](comma_operator.c): Usage of comma operator in C. 
+- [Print without semicolon](print_without_sem.c): Print anything without using semicolon in C. 
