@@ -1,0 +1,264 @@
+1_unset_bits.c - given an array of 2 elements with having atleast 1 element as zero, write a line unset both elements
+
+2_binary_representation.c - print binary representation of a num
+
+3_binary_palindrdom.c - check if binary representation is palindrom or not
+
+4_find_7nby8.c - find 7n/8 using bitwise
+
+5_multiple_of_4.c - Check if a given number is multiple of 4 or not
+
+6_own_strcmp.c - write your own case in-sensitive string compare function
+
+7_prod_of_array_elements.c - find product of all array elements except that array index element
+
+8_count_absolute_nums.c - count number of unique absolute values in an sorted array
+
+10_rorate_array_elements.c - left rotate array elements
+
+11_count_num_of_elements.c - Count the number of each elements in array having 0 to n-1 numbers
+
+12_count_num_of_elements_O_1_space.c - same as above but with O(1) space complexity (Prerequisit - input elements from  1 to n)
+
+13_inversion_of_3.c - Find number of combinations for which follows : a[i] > a[j] > a[k] with i < j < k
+
+14_zig_zag_pattern.c - WAP to print array elements in zig zag fashion i.e. a < b > c < d > e < f
+
+15_steps_get_array.c - WAP to find the number of steps required to get an array [a, b, c...] from [0, 0, 0...]
+
+16_num_of_distinct_pairs.c - WAP to count the number of distinct pairs formed by elements in an array 
+
+17_pairs_having_given_sum.c - count number of pairs having a required sum
+
+18_strictly_increasing_sets.c - count the number of strictly increasing sub arrays
+
+19_triplets_with_sum_smaller.c - Count the number of triplets having sum less than a given sum from an sorted array
+
+20_find_equilibrium_index.c - Find equilibrium index of any array(sum of elements on left and right side are equal)
+
+21_sorted_3_values.c - print 3 values that are in ascending order in an array
+
+22_triplet_with_a_sum.c - Find triplets having a given sum form a sorted array
+
+23_common_elements_in_3_sorted_arr.c - Find common elements from 3 sorted arrays with O(n)
+
+24_elements_in_gp.c - Find triplets which are in geometric progression from a sorted array in ascending order with O(n**2)
+
+25_find_repeating_elements.c - Find all repeated elements from an array with O(n) time and O(1) space complexity
+
+26_token_pasting_operator.c - Example of token pasting operator (##)
+
+27_find_2_repeating_nums_using_xor.c - Find 2 repeating elements in an array having elements from 1 to n-2, n is number of elements in a array
+
+28_find_2_non_repeated_numbers_using_xor.c - Find 2 non repeating numbers from an array, other numbers are repeated in that array
+
+29_if_array_can_be_divided_with_equal_sum.c - Find if it is possible to divide an array is 2 parts having equal sum after removing one element
+
+30_indx_of_0_for_max_1_seq.c - In a array of 0 and 1, find the index of 0 which when replaced by 1 gives max sequence of 1
+
+31_max_avg_of_len_k.c - Find subarray of length k, having maximum average with O(n*k)
+
+32_max_avg_of_len_k_O_n.c - Find subarray of length k, having maximum avg with O(n) time and O(1) space
+
+33_max_prod_of_triplet.c - Find the triplet having maximum product with O(n) time complexity
+
+LIS_O_nlogn.c - Find the length of longest increasing subsequence with O(nlogn) time complexity
+
+LIS_O_n2.c - Find the length of longest increasing subsequence with O(n^2) time complexity
+
+36_maximize_indx_prod_diff_min_val.c - Find max value of abs(i - j)*min(a[i], a[j]) with O(n) time complexity
+
+37_num_of_rotations_to_maximize_sum.c - Find number of right rotations required to get value of sum (i*a[i])
+
+38_find_log_n.c - Find log(n) in one line
+
+39_merge_RGB_and_count_min.c - From an array of characters having elements as (R, G, B) find the minimum elements left after all possible merging - Merging happens between 2 adjacent elements if they are different and becomes third type
+
+40_merge_elements_to_make_array_palindrom.c - Number of merge(sum adjacent array elements) operations to make an given array to palindrom
+
+41_num_of_subarray_with_even_sum_O_n2.c - Find number of sub-arrays having even sum
+
+42_num_of_subarray_with_even_sum_O_n.c - Find number of sub-arrays having even sum with time complexity O(n)
+
+43_subarray_having_given_sum.c - Find subarray having given sum with complexity O(n)
+
+44_max_prod_3_increasing_nums.c - Find increasing subsequence of length with maximum product (Max(a[i]*a[j]*a[k]) where i < j < k and a[i] < a[j] < a[k])
+
+45_max_occuring_num_with_space_O_k.c - Find the element occuring maximum times in an array, elements range from 0 to k-1 and k<=n. With O(n) time and O(k) space complexity
+ 
+46_max_occuring_num_with_space_O_1.c - Find the element occuring maximum times in an array, elements range from 0 to k-1 and k<=n. With O(n) time and O(1) space complexity
+
+47_min_distance_bw_2_nums_O_n2.c - Find the minimum distance between 2 elements of an array
+
+48_min_distance_bw_2_nums_O_n_own.c - Find the minimum distance between 2 elements of an array with time complexity of O(n)
+
+49_min_distance_bw_2_nums_O_n_geeks.c - Find the minimum distance between 2 elements of an array with time complexity of O(n) [geeksforgeeks solution - simpler approach]
+
+50_count_num_of_zeros.c - In an array of 1's and 0's (1's followed by 0's), find the number of 0's present with O(logn) complexity
+
+51_find_smallest_missing_num_O_n.c - Find smallest missing number from a sorted array, Range of numbers is 0 to m - 1 and m > n with O(n) time
+
+52_find_smallest_missing_num_O_logn.c - Find smallest missing number from a sorted array, Range of numbers is 0 to m - 1 and m > n with O(logn) time
+
+53_min_num_not_possible.c - Find the minimum number that cannot be reperesented as sum of any subarray from an given sorted array 
+
+54_smallest_positive_num_missing.c - Find the smallest positive number missing from an unsorted array of +ve and -ve elements
+
+55_odd_occurence_of_2_nums.c - Find 2 nunmbers from an array having odd times of occurrences with O(n) time and O(1) space
+
+56_find_2_repeating_nums_from_1_to_n.c - Find 2 repeating numbers from an array having n+2 elements elements range from 1 to n(2 nums are repeated twice, need to find that), eg : n = 5, [1,2,3,2,3], o/p - 2,3
+
+57_is_subset_of_array.c - Find if arr2 is subset of arr1 - Assume both arrays as sorted, if not given sorted than sort both arrays 
+
+58_find_ceil_n_floor_in_array_O_n.c - Find ceil and floor of an element x from array with complexity O(n)
+
+59_find_ceil_n_floor_in_array_logn.c - Find ceil and floor of an element x from array with complexity O(logn)
+
+60_max_diff_of_j_i.c - Find max value of (j - i) such that a[j] > a[i]
+
+61_pairs_having_given_sum_negative_nums_also.c - Print all pairs having given sum, input array can have negatives also.
+																							 - Not working with hashing method, use sorting method for this.
+
+62_is_jolly_jumper_seq.c - Find if a given sequence is jolly jumber or not, A sequence of n elements is Jolly jumber if absolute difference between adjacent elements ranges from 1 to n - 1
+
+63_subarray_having_max_prod.c - Find subarray of length k having max product
+
+64_divide_with_equal_0_and_1_O_n2.c - Find longest subarray having equal number of 0's and 1's from an array having elements as 0 or 1
+																		- O(n) solution also given at geeksforgeeks, didn't got it :(
+
+65_leaders_in_array.c - Find all leaders from an array(Leaders in array are elements which are greater than all elements at it's right)
+
+66_my_atoi_using_bitwise_op.c - Write own atoi function using bitwise operations.
+
+67_contigious_arrangement_len.c - Find the max length of sub-array that can be arranged in contigious order
+
+68_longest_span_sum_of_2_binary_arrays.c - Find the length of longest span between 2 binary arrays having same sum
+
+69_majority_element_in_array.c* - Find majority element from an array, element occuring more than n/2 times is called majority element
+																 Expected time and space complexity is O(n)
+
+70_max_sum_after_k_negations.c - Find maximum sum of an array after k negations
+
+71_max_zeros_in_array_after_a_subarray_flip_O_n2.c - Find the maximum number of zeros in a binary array after flipping a sub-array - O(n*n)
+
+72_max_zeros_in_array_after_a_subarray_flip_in_O_n.c - Find the maximum number of zeros in a binary array after flipping a sub-array - O(n)
+
+73_combination_with_max_val.c - Maximize value of (a[i] - i)- (a[j] - j) in an array with O(n)
+
+74_max_and_min_prod_of_subset.c - Find max and min product from subset of an array
+
+75_kadane_algo_largest_sum_of_subarray.c - Kadane's algorithm (Subarray having maximum sum) 
+
+76_max_circular_subarray_sum.c - Find max subarray sum assuming array as a circular one
+
+77_max_diff_btwn_2_elements.c - Find maximum difference between 2 array elements such that larger element appears on right of smaller element(with O(n) complexity) 
+
+78_max_len_of_bitonic_subarray.c - Find maximum bitonic length of subarray(first increasing then decreasing)
+
+79_max_prod_of_subarray.c - Find maximum product of subarray from an array with O(n)
+
+80_max_prod_of_subarray_with_2_traversal.c - Find maximum product of subarray from an array with O(n) [simpler approach as compared to above solution]
+
+81_max_sum_path_of_2_sorted_arrays.c - Find the maximum sum path of 2 sorted arrays, coplexity O(m+n)
+
+82_max_sum_with_no_adjacent_elements.c - Find the maximum sum of an array with no 2 adjacent elements included
+
+83_bubble_sort.py - Implement bubble sort algo
+
+84_selection_sort.py - Implement selection sort algo
+
+85_insertion_sort.py - Implement insertion sort algo
+
+86_max_k_having_greater_val.c - Find the maximum value of k (k <= num of elements in array) such that there are k elements in the array which are greater than k
+															- Some other solution is also given on geeks, not clear to me
+
+87_merge_sort.c - Implement merge sort algo
+
+88_quick_sort.c - Implement quick sort algo
+
+89_merge_2_sorted_array_as_contigous_sorted.c - Transform 2 sorted arrays such that they are sorted in sequence.
+                                              - arr1 contains all smaller elements and arr2 contains all greater elements
+                                              - http://www.geeksforgeeks.org/merge-two-sorted-arrays-o1-extra-space/
+
+90_merge_array_of_size_n_to_m_plus_n.c - Merge 2 sorted arrays, one having size m+n, (m = valid values, n = NA) and other of size n
+                                       - http://www.geeksforgeeks.org/merge-one-array-of-size-n-into-another-one-of-size-mn/
+
+91_pairs_having_given_sum_simpler.c - Find the pairs in an array having given sum
+
+92_stock_buy_sell.c - find the max profit that you can make by buying and selling in those days(given in array)
+                    - http://www.geeksforgeeks.org/stock-buy-sell/
+
+93_min_subarray_len_having_sum_greater_than_x.c - Find length of minimum subarray having sum greater than x
+
+94_partition_array.c - Program to divide a array into 2 subarrays such that max element in left subarray should be less that min element in left subarray.
+                       In this program just printing the number of elements in right subarray.
+
+95_heap_sort.c - Implemnt heap sort. Reference: http://www.geeksforgeeks.org/heap-sort/
+
+96_bst.c - Insert, search, delete and all traversal in bst.
+           http://www.geeksforgeeks.org/binary-search-tree-set-1-search-and-insertion/
+           http://www.geeksforgeeks.org/binary-search-tree-set-2-delete/
+
+97_avl_trees.c - Implement AVL tree and perform insert and delete operation.
+                 http://www.geeksforgeeks.org/avl-tree-set-1-insertion/
+                 http://www.geeksforgeeks.org/avl-tree-set-2-deletion/
+
+98_counting_sort.c - Implement counting sort.
+                     https://www.hackerearth.com/practice/algorithms/sorting/counting-sort/tutorial/
+                     
+99_radix_sort - Implement radix sort.
+                http://www.geeksforgeeks.org/radix-sort/
+
+find_peak_element.c - Find 1-D peak from an array.
+
+find_2d_peak.c - Find 2-D peak in a matrix.
+
+rabin_karp.c - Substring matching algo.
+               http://www-igm.univ-mlv.fr/~lecroq/string/node5.html#SECTION0050
+
+karatsuba.py - Find multiplication of 2 numbers using karatsuba algo.
+               https://brilliant.org/wiki/karatsuba-algorithm/
+
+is_prime.go - Check if a number is prime or not.
+              http://www.geeksforgeeks.org/primality-test-set-1-introduction-and-school-method/
+
+babylonian_square_root.go - Find square root of a number.
+                            https://en.wikipedia.org/wiki/Methods_of_computing_square_roots#Babylonian_method
+                            https://www.geeksforgeeks.org/square-root-of-a-perfect-square/
+
+bfs.py - Breadth first traversal of graph.
+         https://www.geeksforgeeks.org/breadth-first-traversal-for-a-graph/
+
+dfs.py - Depth first traversal of graph
+         https://www.geeksforgeeks.org/depth-first-traversal-for-a-graph/
+
+cycle_in_graph.py - Cycle detection in graph using DFS.
+                    https://www.geeksforgeeks.org/detect-cycle-in-a-graph/
+
+topological_sort.py - job scheduling/topological sort using graph
+                      https://www.geeksforgeeks.org/topological-sorting/
+
+level_order_tree_traversal.c - Level order tree traversal
+
+level_order_tree_traversal_using_queue.c - Level order traversal of tree
+                                           https://www.geeksforgeeks.org/?p=2686
+                                          
+shortest_path_for_DAG.py - Find shortest path in directed acyclic graph.
+                           https://www.geeksforgeeks.org/shortest-path-for-directed-acyclic-graphs/
+
+dijkstra.py - Dijkstra algo to find shortest path | NOT IMPELEMNTED
+              https://www.geeksforgeeks.org/greedy-algorithms-set-7-dijkstras-algorithm-for-adjacency-list-representation/
+
+bellman_ford.py - Bellman Ford algo to find shortest path
+                  https://www.geeksforgeeks.org/dynamic-programming-set-23-bellman-ford-algorithm/
+
+edit_distance.c - Edit distance problem: O(mxn) solution.
+                  https://www.geeksforgeeks.org/dynamic-programming-set-5-edit-distance/
+
+flip_your_cap.c - https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-s095-programming-for-the-puzzled-january-iap-2018/puzzle-1-you-will-all-conform/MIT6_S095IAP18_Puzzle_1.pdf
+
+TODO's:
+- Find kth largest/smallest element in an unsorted array with O(n) complexity
+- Merge k sorted arrays to final sorted array
+- Log(n) solution to find nth fibonacci number.
+- Find LCA in a BST
