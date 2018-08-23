@@ -25,8 +25,8 @@
 - [NULL pointer in C](null_pointer.c): NULL pointer in C.
 - [Memset in C](my_memset.c): Memset demo in C.
 - [Print long string in C](print_long_strings.c): Print long string in C.
-- [Comma operator in C](comma_operator.c): Usage of comma operator in C. 
-- [Print without semicolon](print_without_sem.c): Print anything without using semicolon in C. 
+- [Comma operator in C](comma_operator.c): Usage of comma operator in C.
+- [Print without semicolon](print_without_sem.c): Print anything without using semicolon in C.
 - [Macro braces in macros](macro_braces.c): Importance of parenthesis in using macros.
 - [Hex buffers](save_buffer.c): Prints data in structure as buffer of hex numbers.
 - [Slice and bool](slice_bool.go): Slice and bool demo in goLang.
