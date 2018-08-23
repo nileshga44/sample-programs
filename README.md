@@ -1,4 +1,7 @@
 # Sample and demo programs
+
+#### **: If there multiple solutions for a given solution, go with this.
+
 - [Matrix traversal](matrix_traversal_performance.c): Traversing matrix row wise in C is more efficient than column wise.
 - [Merge PDFs first page](merge_all_pdfs_first_page.sh): Script to merge first page of all PDF files found in current directory and sub-directories.
 - [Unpack list and dictionary](unpack_list_dict.py): How to unpack list and dictionaries when passed as function arguments.
@@ -33,4 +36,4 @@
 - [Own strcmp](str_cmp.c): strcmp implemented.
 - [Strlen in C](strlen_test.c): Few tests for strlen function behaviour.
 - [Singleton pattern, using __new__](singleton_class_using_new.py): Implement singleton in python by overwriting __new__ method.
-- [Singleton pattern, using decorator](singleton_class_using_decorator.py): Implement singleton in python using decorator.
+- [Singleton pattern, using decorator**](singleton_class_using_decorator.py): Implement singleton in python using decorator.
