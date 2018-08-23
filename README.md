@@ -31,4 +31,6 @@
 - [Hex buffers](save_buffer.c): Prints data in structure as buffer of hex numbers.
 - [Slice and bool](slice_bool.go): Slice and bool demo in goLang.
 - [Own strcmp](str_cmp.c): strcmp implemented.
-- [strlen in C](strlen_test.c): Few tests for strlen function behaviour.
+- [Strlen in C](strlen_test.c): Few tests for strlen function behaviour.
+- [Singleton pattern, using __new__](singleton_class_using_new.py): Implement singleton in python by overwriting __new__ method.
+- [Singleton pattern, using decorator](singleton_class_using_decorator.py): Implement singleton in python using decorator.
