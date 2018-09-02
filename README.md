@@ -37,3 +37,4 @@
 - [Strlen in C](strlen_test.c): Few tests for strlen function behaviour.
 - [Singleton pattern, using __new__](singleton_class_using_new.py): Implement singleton in python by overwriting __new__ method.
 - [Singleton pattern, using decorator**](singleton_class_using_decorator.py): Implement singleton in python using decorator.
+- [Make class iterable](python/make_class_iterable.py): Make an user defined class iterable, define __iter__ and __next__.
