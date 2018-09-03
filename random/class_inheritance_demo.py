@@ -1,3 +1,11 @@
+#!/usr/bin/python
+
+# Date: 2017-01-xx
+#
+# Description:
+# Class inheritance examples.
+
+
 class abc(object):
   y = 23
 
@@ -25,7 +33,6 @@ x("hello")
 print ("****************************************")
 abc("xyz", 10)
 abc("ioio", 110)("low")
-#x = abc()
 
 print ("****************************************")
 class d(abc):
@@ -36,13 +43,3 @@ class d(abc):
 d1 = d()
 print (d1.name)
 print (d1.age)
-
-print ("*********** class without constructor *****************************")
-class xyz:
-  def fun(self, year):
-    print ("In fun..")
-    self.year = year
-
-obj = xyz()
-obj.fun(10)
-print (obj.year)
