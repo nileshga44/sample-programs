@@ -54,8 +54,9 @@ class Counter:
         self.my_total = 0  # Data attribute
 
     def increment(self):
-        self.my_total = self.my_total + 1
-        Counter.overall_count = Counter.overall_count + 1
+        self.my_total += 1
+        Counter.overall_count += 1
+        # self.__class__.overall_count += 1  # This also works.
 
 a = Counter()
 b = Counter()

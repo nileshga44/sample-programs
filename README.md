@@ -44,3 +44,5 @@
 - [Static and class methods](python/class_static_and_class_methods.py): Static and class methods.
 - [Method overriding](python/class_method_overriding.py): Method overriding in python
 - [Check object's membership](python/class_check_object_membership.py): Check object membership using isinstance() and issubclass().
+- [Access members of parents class](python/class_access_parent_members.py): How to access methods and members of parent class from derived class.
+- [Multiple inheritance](python/class_multiple_inheritance.py): Multiple inheritance in python.
