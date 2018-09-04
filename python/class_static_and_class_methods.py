@@ -1,6 +1,6 @@
 #!/usr/bin/python
 
-# Date: 2018-
+# Date: 2018-09-03
 #
 # Description:
 # Static and class methods demo.

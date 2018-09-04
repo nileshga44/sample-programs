@@ -1,8 +1,9 @@
 #!/usr/bin/python
 
-# Date: 2018-
+# Date: 2018-09-03
 #
 # Description:
+# Create, access and update class/static variable.
 
 
 class CSStudent:
@@ -44,14 +45,14 @@ print (CSStudent.stream)  # ECE
 print ('\n\nAnother example...')
 class Counter:
     """
-    A demonstration of class attributes(Common across all class instances) 
+    A demonstration of class attributes(Common across all class instances)
     and data attributes(per instance).
     """
     overall_count = 0  # Class attribute
 
     def __init__(self):
         self.my_total = 0  # Data attribute
-    
+
     def increment(self):
         self.my_total = self.my_total + 1
         Counter.overall_count = Counter.overall_count + 1
