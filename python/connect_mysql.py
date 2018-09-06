@@ -4,8 +4,8 @@
 #
 # Prerequisit: sudo apt-get install python2.7-mysqldb
 #
-# Description: Demo program to connect with MySQL, executing query and parsing
-# query.
+# Description:
+# Demo program to connect with MySQL, executing query and parsing query.
 
 import MySQLdb
 import datetime
@@ -71,4 +71,3 @@ db.close()
 # 2018-04-25 15:30:25.169027 - Executing query...
 # 2018-04-25 15:30:26.802720 - Parsing result...
 # 2018-04-25 15:30:26.803314 - Total number of records: 7689
-

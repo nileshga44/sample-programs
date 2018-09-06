@@ -2,13 +2,16 @@
 
 # Date: 2017-mm-dd
 #
-# Description: When a mutable parameter is optional and value is not passed
-#              while calling, it retains previous value. 
+# Description:
+# Side effect of having mutable default argument in python. When a mutable
+# parameter is optional and value is not passed while calling, it retains
+# previous value.
+
 
 def f(x, l=[]):
   for i in range(x):
     l.append(i*i)
-  print(l) 
+  print(l)
 
 f(2)
 f(3, [3, 2, 1])

@@ -38,4 +38,4 @@ print b.x
 
 # This fails with error: AttributeError: 'B' object has no attribute 'y'
 # As we have restricted allowed attributes on objects of class B to only 'x'.
-b.y = 200 
+b.y = 200

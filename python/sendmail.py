@@ -10,6 +10,7 @@ import getopt
 import smtplib
 import sys
 
+
 def main(argv):
    FROM = ''
    TO = ''
@@ -54,7 +55,7 @@ def main(argv):
    server = smtplib.SMTP('localhost', 25)
    server.set_debuglevel(1)
    server.sendmail(from_addr, to_addr, msg)
-   server.quit()   
+   server.quit()
 
 if __name__ == '__main__':
    main(sys.argv[1:])

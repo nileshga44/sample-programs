@@ -5,6 +5,7 @@
 # Description:
 # Pass multiple string parameters in sql query.
 
+
 s = "select * from table where column in ({})"
 val = ["cs", "fi", "hk"]
 
@@ -15,4 +16,4 @@ print query
 
 
 # Output:
-# select * from table where column in ('cs', 'fi', 'hk') 
+# select * from table where column in ('cs', 'fi', 'hk')
