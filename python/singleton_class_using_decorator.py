@@ -13,7 +13,7 @@
 
 def singleton(classname):
   """Decorator function which restricts decorated class to be singleton.
-  
+
   Args:
     classname: Reference of class whose object needs to be created.
 

@@ -12,7 +12,7 @@
 
 class MySingleton(object):
   """Implements singleton class."""
-  
+
   _instance = None
 
   def __new__(self):

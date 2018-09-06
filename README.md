@@ -35,8 +35,8 @@
 - [Slice and bool](slice_bool.go): Slice and bool demo in goLang.
 - [Own strcmp](str_cmp.c): strcmp implemented.
 - [Strlen in C](strlen_test.c): Few tests for strlen function behaviour.
-- [Singleton pattern, using __new__](singleton_class_using_new.py): Implement singleton in python by overwriting __new__ method.
-- [Singleton pattern, using decorator**](singleton_class_using_decorator.py): Implement singleton in python using decorator.
+- [Singleton pattern, using __new__](python/singleton_class_using_new.py): Implement singleton in python by overwriting __new__ method.
+- [Singleton pattern, using decorator**](python/singleton_class_using_decorator.py): Implement singleton in python using decorator.
 - [Make class iterable](python/make_class_iterable.py): Make an user defined class iterable, define __iter__ and __next__.
 - [Define a class](python/class_defining.py): Define a class and instance methods.
 - [Data/Static class variables](python/class_data_variable.py): Create, access and update class/static variables.
