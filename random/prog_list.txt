@@ -169,8 +169,6 @@
 94_partition_array.c - Program to divide a array into 2 subarrays such that max element in left subarray should be less that min element in left subarray.
                        In this program just printing the number of elements in right subarray.
 
-95_heap_sort.c - Implemnt heap sort. Reference: http://www.geeksforgeeks.org/heap-sort/
-
 96_bst.c - Insert, search, delete and all traversal in bst.
            http://www.geeksforgeeks.org/binary-search-tree-set-1-search-and-insertion/
            http://www.geeksforgeeks.org/binary-search-tree-set-2-delete/
@@ -184,54 +182,6 @@
                      
 99_radix_sort - Implement radix sort.
                 http://www.geeksforgeeks.org/radix-sort/
-
-find_peak_element.c - Find 1-D peak from an array.
-
-find_2d_peak.c - Find 2-D peak in a matrix.
-
-rabin_karp.c - Substring matching algo.
-               http://www-igm.univ-mlv.fr/~lecroq/string/node5.html#SECTION0050
-
-karatsuba.py - Find multiplication of 2 numbers using karatsuba algo.
-               https://brilliant.org/wiki/karatsuba-algorithm/
-
-is_prime.go - Check if a number is prime or not.
-              http://www.geeksforgeeks.org/primality-test-set-1-introduction-and-school-method/
-
-babylonian_square_root.go - Find square root of a number.
-                            https://en.wikipedia.org/wiki/Methods_of_computing_square_roots#Babylonian_method
-                            https://www.geeksforgeeks.org/square-root-of-a-perfect-square/
-
-bfs.py - Breadth first traversal of graph.
-         https://www.geeksforgeeks.org/breadth-first-traversal-for-a-graph/
-
-dfs.py - Depth first traversal of graph
-         https://www.geeksforgeeks.org/depth-first-traversal-for-a-graph/
-
-cycle_in_graph.py - Cycle detection in graph using DFS.
-                    https://www.geeksforgeeks.org/detect-cycle-in-a-graph/
-
-topological_sort.py - job scheduling/topological sort using graph
-                      https://www.geeksforgeeks.org/topological-sorting/
-
-level_order_tree_traversal.c - Level order tree traversal
-
-level_order_tree_traversal_using_queue.c - Level order traversal of tree
-                                           https://www.geeksforgeeks.org/?p=2686
-                                          
-shortest_path_for_DAG.py - Find shortest path in directed acyclic graph.
-                           https://www.geeksforgeeks.org/shortest-path-for-directed-acyclic-graphs/
-
-dijkstra.py - Dijkstra algo to find shortest path | NOT IMPELEMNTED
-              https://www.geeksforgeeks.org/greedy-algorithms-set-7-dijkstras-algorithm-for-adjacency-list-representation/
-
-bellman_ford.py - Bellman Ford algo to find shortest path
-                  https://www.geeksforgeeks.org/dynamic-programming-set-23-bellman-ford-algorithm/
-
-edit_distance.c - Edit distance problem: O(mxn) solution.
-                  https://www.geeksforgeeks.org/dynamic-programming-set-5-edit-distance/
-
-flip_your_cap.c - https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-s095-programming-for-the-puzzled-january-iap-2018/puzzle-1-you-will-all-conform/MIT6_S095IAP18_Puzzle_1.pdf
 
 TODO's:
 - Find kth largest/smallest element in an unsorted array with O(n) complexity
