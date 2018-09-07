@@ -30,8 +30,6 @@
 
 25_find_repeating_elements.c - Find all repeated elements from an array with O(n) time and O(1) space complexity
 
-26_token_pasting_operator.c - Example of token pasting operator (##)
-
 27_find_2_repeating_nums_using_xor.c - Find 2 repeating elements in an array having elements from 1 to n-2, n is number of elements in a array
 
 28_find_2_non_repeated_numbers_using_xor.c - Find 2 non repeating numbers from an array, other numbers are repeated in that array
