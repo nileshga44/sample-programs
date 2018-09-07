@@ -1,7 +1,5 @@
 8_count_absolute_nums.c - count number of unique absolute values in an sorted array
 
-10_rorate_array_elements.c - left rotate array elements
-
 11_count_num_of_elements.c - Count the number of each elements in array having 0 to n-1 numbers
 
 12_count_num_of_elements_O_1_space.c - same as above but with O(1) space complexity (Prerequisit - input elements from  1 to n)
@@ -47,10 +45,6 @@
 32_max_avg_of_len_k_O_n.c - Find subarray of length k, having maximum avg with O(n) time and O(1) space
 
 33_max_prod_of_triplet.c - Find the triplet having maximum product with O(n) time complexity
-
-LIS_O_nlogn.c - Find the length of longest increasing subsequence with O(nlogn) time complexity
-
-LIS_O_n2.c - Find the length of longest increasing subsequence with O(n^2) time complexity
 
 36_maximize_indx_prod_diff_min_val.c - Find max value of abs(i - j)*min(a[i], a[j]) with O(n) time complexity
 
