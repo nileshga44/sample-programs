@@ -150,8 +150,6 @@
 
 87_merge_sort.c - Implement merge sort algo
 
-88_quick_sort.c - Implement quick sort algo
-
 89_merge_2_sorted_array_as_contigous_sorted.c - Transform 2 sorted arrays such that they are sorted in sequence.
                                               - arr1 contains all smaller elements and arr2 contains all greater elements
                                               - http://www.geeksforgeeks.org/merge-two-sorted-arrays-o1-extra-space/
@@ -165,9 +163,6 @@
                     - http://www.geeksforgeeks.org/stock-buy-sell/
 
 93_min_subarray_len_having_sum_greater_than_x.c - Find length of minimum subarray having sum greater than x
-
-94_partition_array.c - Program to divide a array into 2 subarrays such that max element in left subarray should be less that min element in left subarray.
-                       In this program just printing the number of elements in right subarray.
 
 96_bst.c - Insert, search, delete and all traversal in bst.
            http://www.geeksforgeeks.org/binary-search-tree-set-1-search-and-insertion/
