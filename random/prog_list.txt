@@ -166,9 +166,6 @@
                  http://www.geeksforgeeks.org/avl-tree-set-1-insertion/
                  http://www.geeksforgeeks.org/avl-tree-set-2-deletion/
 
-99_radix_sort - Implement radix sort.
-                http://www.geeksforgeeks.org/radix-sort/
-
 TODO's:
 - Find kth largest/smallest element in an unsorted array with O(n) complexity
 - Merge k sorted arrays to final sorted array
