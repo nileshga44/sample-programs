@@ -166,9 +166,6 @@
                  http://www.geeksforgeeks.org/avl-tree-set-1-insertion/
                  http://www.geeksforgeeks.org/avl-tree-set-2-deletion/
 
-98_counting_sort.c - Implement counting sort.
-                     https://www.hackerearth.com/practice/algorithms/sorting/counting-sort/tutorial/
-                     
 99_radix_sort - Implement radix sort.
                 http://www.geeksforgeeks.org/radix-sort/
 
