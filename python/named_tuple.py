@@ -1,9 +1,11 @@
 #!/usr/bin/python
 
-import collections
-
 # Date: 2018-04-19
-# Description: Few snippets to work with named tuples in python.
+#
+# Description:
+# Few snippets to work with named tuples in python.
+
+import collections
 
 Records = []
 Record = collections.namedtuple('Record', ['Id', 'Name', 'Age'])
