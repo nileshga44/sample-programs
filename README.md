@@ -45,6 +45,7 @@
 - [Access members of parents class](python/class_access_parent_members.py): How to access methods and members of parent class from derived class.
 - [Multiple inheritance](python/class_multiple_inheritance.py): Multiple inheritance in python.
 - [Lamda demo](python/lambda_demo.py): Lambda operator in python.
+- [Enumerate and zip](python/enumerate_and_zip.py): Enumerate and zip in python.
 
 ## Others
 - [Slice and bool](slice_bool.go): Slice and bool demo in goLang.
