@@ -142,8 +142,6 @@
 86_max_k_having_greater_val.c - Find the maximum value of k (k <= num of elements in array) such that there are k elements in the array which are greater than k
 															- Some other solution is also given on geeks, not clear to me
 
-87_merge_sort.c - Implement merge sort algo
-
 89_merge_2_sorted_array_as_contigous_sorted.c - Transform 2 sorted arrays such that they are sorted in sequence.
                                               - arr1 contains all smaller elements and arr2 contains all greater elements
                                               - http://www.geeksforgeeks.org/merge-two-sorted-arrays-o1-extra-space/
