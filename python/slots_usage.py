@@ -8,6 +8,7 @@
 # (which is dynamic) so it consumes lot of memory when large number of objects
 # are created. To avoid this memory waste we can limit the attributes allowed on
 # a class object using __slots__.
+#
 # In slots list we can specify the list of attributes allowed on an object which
 # ultimately makes attribute dictionary static as now it will know all
 # attributes allowed in advance hence saves large amount of memory.

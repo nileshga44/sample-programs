@@ -31,7 +31,7 @@
 - [Named-tuples](python/named_tuple.py): Few snippets to work with named tuples in python.
 - [Optional mutable arguments](python/mutable_default_arguments.py): Optional mutable arguments retains its value in subsequent calls.
 - [Connect MySQL in python](python/connect_mysql.py): Python program to connect and execute query on MySQL.
-- [Slots usage in python](slots_usage.py): __slots__ usage in python, Used to save memory when large number of objects are created.
+- [Slots usage in python](python/slots_usage.py): __slots__ usage in python, Used to save memory when large number of objects are created.
 - [Map, filter, reduce](python/map_filter_reduce.py): Map, filter and reduce in python.
 - [Singleton pattern, using __new__](python/singleton_class_using_new.py): Implement singleton in python by overwriting __new__ method.
 - [Singleton pattern, using decorator**](python/singleton_class_using_decorator.py): Implement singleton in python using decorator.
