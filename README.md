@@ -48,6 +48,8 @@
 - [Enumerate and zip](python/enumerate_and_zip.py): Enumerate and zip in python.
 - [Generators](python/generators.py): Usage of generators in python.
 - [Property](python/property.py): Defining and using property in python.
+- [Decorator](python/decorators.py): Decorator usage.
+- [Decorator with arguments](python/decorator_with_arguments.py): Decorator with arguments.
 
 ## Others
 - [Slice and bool](slice_bool.go): Slice and bool demo in goLang.
