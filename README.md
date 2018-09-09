@@ -47,6 +47,7 @@
 - [Lamda demo](python/lambda_demo.py): Lambda operator in python.
 - [Enumerate and zip](python/enumerate_and_zip.py): Enumerate and zip in python.
 - [Generators](python/generators.py): Usage of generators in python.
+- [Property](python/property.py): Defining and using property in python.
 
 ## Others
 - [Slice and bool](slice_bool.go): Slice and bool demo in goLang.
