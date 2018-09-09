@@ -44,6 +44,7 @@
 - [Check object's membership](python/class_check_object_membership.py): Check object membership using isinstance() and issubclass().
 - [Access members of parents class](python/class_access_parent_members.py): How to access methods and members of parent class from derived class.
 - [Multiple inheritance](python/class_multiple_inheritance.py): Multiple inheritance in python.
+- [Lamda demo](python/lambda_demo.py): Lambda operator in python.
 
 ## Others
 - [Slice and bool](slice_bool.go): Slice and bool demo in goLang.
