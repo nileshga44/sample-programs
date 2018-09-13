@@ -1,5 +1,15 @@
+#!/usr/bin/python
+
+# Date: 2018-09-13
+#
+# Description:
+# Example of thread module and lock mechanism.
+#
+# Note: Use threading module instead of thread.
+
+
 # thread module is not present in python 3 and above, instead module
-# "threading" is available.
+# "threading" is available so focus more on that program.
 import thread
 import time
 
@@ -47,3 +57,52 @@ thread.start_new_thread(thread_function1, (2, 0))
 thread.start_new_thread(thread_function1, (3, 0))
 print("\nExiting...")
 time.sleep(1)
+
+
+# Output:
+# -------------------------------------
+#
+# Multithreading without lock mechanism
+#
+# Exiting...
+
+# 1 | thrId[1] | num_threads[0]
+# 1 | thrId[2] | num_threads[0]
+
+
+# 2 | thrId[1] | num_threads[1]
+# 1 | thrId[3] | num_threads[1]
+# 2 | thrId[2] | num_threads[2]
+
+
+
+# 3 | thrId[1] | num_threads[1]
+# 2 | thrId[3] | num_threads[2]
+# 3 | thrId[2] | num_threads[1]
+
+
+
+# 3 | thrId[3] | num_threads[0]
+
+
+# Multithreading with lock mechanism
+
+# Exiting...
+
+# 1 | thrId[3] | num_threads1[0]
+
+# 2 | thrId[3] | num_threads1[1]
+
+# 3 | thrId[3] | num_threads1[0]
+
+# 1 | thrId[2] | num_threads1[0]
+
+# 2 | thrId[2] | num_threads1[1]
+
+# 3 | thrId[2] | num_threads1[0]
+
+# 1 | thrId[1] | num_threads1[0]
+
+# 2 | thrId[1] | num_threads1[1]
+
+# 3 | thrId[1] | num_threads1[0]

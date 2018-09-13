@@ -1,3 +1,13 @@
+#!/usr/bin/python
+
+# Date: 2018-09-13
+#
+# Description:
+# Example to show usage of python threading module.
+# Please note that due to GIL in python only single thread gets interpreter at
+# a time and others wait for there turn get the lock.
+
+
 import time
 import threading
 
@@ -33,6 +43,7 @@ class primeNumber(threading.Thread):
         else:
             print('\nNumber[%d] is prime' % self.Number)
 
+
 threads = []
 while True:
     num = long(input('\nEnter number(0 to exit): '))
@@ -42,5 +53,64 @@ while True:
     threads.append(thread)
     thread.start()
 
+print '\nJoining all threads...'
 for x in threads:
     x.join()
+
+
+# Output:
+# ----------------------------------------------
+# Thread 0 sleeps for 5 seconds
+ 
+# Thread 1 sleeps for 5 seconds
+
+# Thread 2 sleeps for 5 seconds
+
+# Thread 3 sleeps for 5 seconds
+
+# Thread 4 sleeps for 5 seconds
+
+# Thread 5 sleeps for 5 seconds
+
+# Thread 6 sleeps for 5 seconds
+# Thread 7 sleeps for 5 seconds
+
+
+# Thread 8 sleeps for 5 seconds
+ 
+# Thread 9 sleeps for 5 seconds
+
+# Thread 2 woke up
+
+# Thread 6 woke up
+# Thread 0 woke up
+# Thread 5 woke up
+
+
+
+# Thread 1 woke up
+# Thread 7 woke up
+# Thread 4 woke up
+ 
+# Thread 8 woke up
+
+
+
+# Thread 3 woke up
+
+# Thread 9 woke up
+
+
+# Another example of threading using class(prime checker)...
+
+# Enter number(0 to exit): 5
+
+# Number[5] is prime
+# Enter number(0 to exit): 
+# 6
+
+# Number[6] is not prime
+# Enter number(0 to exit): 
+# 0
+
+# Joining all threads...
