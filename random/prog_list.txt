@@ -156,10 +156,6 @@
 
 93_min_subarray_len_having_sum_greater_than_x.c - Find length of minimum subarray having sum greater than x
 
-96_bst.c - Insert, search, delete and all traversal in bst.
-           http://www.geeksforgeeks.org/binary-search-tree-set-1-search-and-insertion/
-           http://www.geeksforgeeks.org/binary-search-tree-set-2-delete/
-
 97_avl_trees.c - Implement AVL tree and perform insert and delete operation.
                  http://www.geeksforgeeks.org/avl-tree-set-1-insertion/
                  http://www.geeksforgeeks.org/avl-tree-set-2-deletion/
