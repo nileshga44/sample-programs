@@ -155,13 +155,3 @@
                     - http://www.geeksforgeeks.org/stock-buy-sell/
 
 93_min_subarray_len_having_sum_greater_than_x.c - Find length of minimum subarray having sum greater than x
-
-97_avl_trees.c - Implement AVL tree and perform insert and delete operation.
-                 http://www.geeksforgeeks.org/avl-tree-set-1-insertion/
-                 http://www.geeksforgeeks.org/avl-tree-set-2-deletion/
-
-TODO's:
-- Find kth largest/smallest element in an unsorted array with O(n) complexity
-- Merge k sorted arrays to final sorted array
-- Log(n) solution to find nth fibonacci number.
-- Find LCA in a BST
