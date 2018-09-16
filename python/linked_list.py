@@ -11,8 +11,8 @@
 
 
 class Node:
-    def __init__(self):
-        self.data = None  # Contains data
+    def __init__(self, data):
+        self.data = data  # Contains data
         self.next = None  # Contains reference to the next node
 
 
@@ -21,14 +21,16 @@ class LinkedList:
         self.head = None
 
     def add_node_at_start(self, data):
-        new_node = Node()  # Create a new node
-        new_node.data = data
+        new_node = Node(data)  # Create a new node
         new_node.next = self.head  # Link the new node to the 'previous' node.
         self.head = new_node  # Set the current node to the new one.
 
     def add_node_at_end(self, data):
-      new_node = Node()
-      new_node.data = data
+      new_node = Node(data)
+      if self.head is None:
+        self.head = new_node
+        return None
+
       node = self.head
       while node.next:
         node = node.next
