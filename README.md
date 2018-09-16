@@ -52,7 +52,6 @@
 - [Decorator with arguments](python/decorator_with_arguments.py): Decorator with arguments.
 - [Threading module](python/threading_module.py): Example to show threading module usage.
 - [Thread module](python/thread_module.py): Example to show thread and lock usage in python.
-- [Linked list](python/linked_list.py): Implement linked list in python, all basic operations.
 
 ## Others
 - [Slice and bool](slice_bool.go): Slice and bool demo in goLang.
