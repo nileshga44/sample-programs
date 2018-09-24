@@ -12,8 +12,6 @@
 
 16_num_of_distinct_pairs.c - WAP to count the number of distinct pairs formed by elements in an array
 
-17_pairs_having_given_sum.c - count number of pairs having a required sum
-
 18_strictly_increasing_sets.c - count the number of strictly increasing sub arrays
 
 19_triplets_with_sum_smaller.c - Count the number of triplets having sum less than a given sum from an sorted array
@@ -149,9 +147,11 @@
 90_merge_array_of_size_n_to_m_plus_n.c - Merge 2 sorted arrays, one having size m+n, (m = valid values, n = NA) and other of size n
                                        - http://www.geeksforgeeks.org/merge-one-array-of-size-n-into-another-one-of-size-mn/
 
-91_pairs_having_given_sum_simpler.c - Find the pairs in an array having given sum
-
 92_stock_buy_sell.c - find the max profit that you can make by buying and selling in those days(given in array)
                     - http://www.geeksforgeeks.org/stock-buy-sell/
 
 93_min_subarray_len_having_sum_greater_than_x.c - Find length of minimum subarray having sum greater than x
+
+
+Check solution which keeps track of max element:
+https://www.geeksforgeeks.org/maximum-difference-between-two-elements/
