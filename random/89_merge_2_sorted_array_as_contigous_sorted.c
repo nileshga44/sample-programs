@@ -25,22 +25,22 @@ int main()
   }
   for (i = n2 -1; i >= 0; i--)
   {
-		last = a1[n1 - 1];
-		for (j = n1 - 2; (j >= 0 && a1[j] > a2[i]); j--)
-		{
-			a1[j + 1] = a1[j];
-		}
-		if ((j != n1 - 2) || (last > a2[i]))
-		{
-			a1[j + 1] = a2[i];
-			a2[i] = last;
-		}
+    last = a1[n1 - 1];
+    for (j = n1 - 2; (j >= 0 && a1[j] > a2[i]); j--)
+    {
+      a1[j + 1] = a1[j];
+    }
+    if ((j != n1 - 2) || (last > a2[i]))
+    {
+      a1[j + 1] = a2[i];
+      a2[i] = last;
+    }
   }
-	printf ("First Array:\n");
+  printf ("First Array:\n");
   for (i = 0; i < n1; i++)
-		printf("a1[%d]: %d\n", i, a1[i]);
-	printf ("\n\nSecond Array:\n");
+    printf("a1[%d]: %d\n", i, a1[i]);
+  printf ("\n\nSecond Array:\n");
   for (i = 0; i < n2; i++)
-		printf("a2[%d]: %d\n", i, a2[i]);
+    printf("a2[%d]: %d\n", i, a2[i]);
   return 0;
 }

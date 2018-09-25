@@ -17,7 +17,7 @@ int main()
   }
   for (i = 0; i < n; i++)
   {
-    xor_of_2_nums ^= a[i]; 
+    xor_of_2_nums ^= a[i];
   }
   right_set_bit_pos = xor_of_2_nums & ~(xor_of_2_nums - 1);
   for (i = 0; i < n; i++)

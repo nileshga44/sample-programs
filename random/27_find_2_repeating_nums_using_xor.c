@@ -16,11 +16,11 @@ int main()
   xor = p_input[0];
 
   for (i = 1; i < num_of_elements; i++)
-    xor ^= p_input[i]; 
-  
+    xor ^= p_input[i];
+
   for (i = 1; i <= num_of_elements-2; i++)
     xor ^= i;
-    
+
   set_bit = xor & ~(xor - 1);
   for (i = 0; i < num_of_elements; i++)
   {
