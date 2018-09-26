@@ -21,6 +21,7 @@
 - [Own strcmp](str_cmp.c): strcmp implemented.
 - [Strlen in C](strlen_test.c): Few tests for strlen function behaviour.
 - [Token pasting operator in C](C-language/token_pasting_operator.c): Demo to use token pasting operator (##) in C.
+- [Hide password](C-language/hide_passwd.c): Program to hide password while typing.
 
 ## Python
 - [Unpack list and dictionary](python/unpack_list_dict.py): How to unpack list and dictionaries when passed as function arguments.
