@@ -20,8 +20,6 @@
 
 28_find_2_non_repeated_numbers_using_xor.c - Find 2 non repeating numbers from an array, other numbers are repeated in that array
 
-29_if_array_can_be_divided_with_equal_sum.c - Find if it is possible to divide an array is 2 parts having equal sum after removing one element
-
 30_indx_of_0_for_max_1_seq.c - In a array of 0 and 1, find the index of 0 which when replaced by 1 gives max sequence of 1
 
 31_max_avg_of_len_k.c - Find subarray of length k, having maximum average with O(n*k)
@@ -95,9 +93,6 @@
 67_contigious_arrangement_len.c - Find the max length of sub-array that can be arranged in contigious order
 
 68_longest_span_sum_of_2_binary_arrays.c - Find the length of longest span between 2 binary arrays having same sum
-
-69_majority_element_in_array.c* - Find majority element from an array, element occuring more than n/2 times is called majority element
-																 Expected time and space complexity is O(n)
 
 70_max_sum_after_k_negations.c - Find maximum sum of an array after k negations
 
