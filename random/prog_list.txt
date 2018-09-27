@@ -1,9 +1,3 @@
-8_count_absolute_nums.c - count number of unique absolute values in an sorted array
-
-11_count_num_of_elements.c - Count the number of each elements in array having 0 to n-1 numbers
-
-12_count_num_of_elements_O_1_space.c - same as above but with O(1) space complexity (Prerequisit - input elements from  1 to n)
-
 13_inversion_of_3.c - Find number of combinations for which follows : a[i] > a[j] > a[k] with i < j < k
 
 14_zig_zag_pattern.c - WAP to print array elements in zig zag fashion i.e. a < b > c < d > e < f
@@ -25,8 +19,6 @@
 23_common_elements_in_3_sorted_arr.c - Find common elements from 3 sorted arrays with O(n)
 
 24_elements_in_gp.c - Find triplets which are in geometric progression from a sorted array in ascending order with O(n**2)
-
-25_find_repeating_elements.c - Find all repeated elements from an array with O(n) time and O(1) space complexity
 
 27_find_2_repeating_nums_using_xor.c - Find 2 repeating elements in an array having elements from 1 to n-2, n is number of elements in a array
 
