@@ -86,8 +86,6 @@
 64_divide_with_equal_0_and_1_O_n2.c - Find longest subarray having equal number of 0's and 1's from an array having elements as 0 or 1
 																		- O(n) solution also given at geeksforgeeks, didn't got it :(
 
-65_leaders_in_array.c - Find all leaders from an array(Leaders in array are elements which are greater than all elements at it's right)
-
 66_my_atoi_using_bitwise_op.c - Write own atoi function using bitwise operations.
 
 67_contigious_arrangement_len.c - Find the max length of sub-array that can be arranged in contigious order
