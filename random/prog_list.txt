@@ -8,8 +8,6 @@
 
 19_triplets_with_sum_smaller.c - Count the number of triplets having sum less than a given sum from an sorted array
 
-20_find_equilibrium_index.c - Find equilibrium index of any array(sum of elements on left and right side are equal)
-
 21_sorted_3_values.c - print 3 values that are in ascending order in an array
 
 22_triplet_with_a_sum.c - Find triplets having a given sum form a sorted array
