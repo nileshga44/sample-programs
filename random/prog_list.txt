@@ -6,8 +6,6 @@
 
 19_triplets_with_sum_smaller.c - Count the number of triplets having sum less than a given sum from an sorted array
 
-21_sorted_3_values.c - print 3 values that are in ascending order in an array
-
 22_triplet_with_a_sum.c - Find triplets having a given sum form a sorted array
 
 24_elements_in_gp.c - Find triplets which are in geometric progression from a sorted array in ascending order with O(n**2)
