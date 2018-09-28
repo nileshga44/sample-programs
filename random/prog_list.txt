@@ -18,8 +18,6 @@
 
 27_find_2_repeating_nums_using_xor.c - Find 2 repeating elements in an array having elements from 1 to n-2, n is number of elements in a array
 
-28_find_2_non_repeated_numbers_using_xor.c - Find 2 non repeating numbers from an array, other numbers are repeated in that array
-
 30_indx_of_0_for_max_1_seq.c - In a array of 0 and 1, find the index of 0 which when replaced by 1 gives max sequence of 1
 
 31_max_avg_of_len_k.c - Find subarray of length k, having maximum average with O(n*k)
