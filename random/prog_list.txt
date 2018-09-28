@@ -40,8 +40,6 @@
 
 44_max_prod_3_increasing_nums.c - Find increasing subsequence of length with maximum product (Max(a[i]*a[j]*a[k]) where i < j < k and a[i] < a[j] < a[k])
 
-46_max_occuring_num_with_space_O_1.c - Find the element occuring maximum times in an array, elements range from 0 to k-1 and k<=n. With O(n) time and O(1) space complexity
-
 47_min_distance_bw_2_nums_O_n2.c - Find the minimum distance between 2 elements of an array
 
 48_min_distance_bw_2_nums_O_n_own.c - Find the minimum distance between 2 elements of an array with time complexity of O(n)
