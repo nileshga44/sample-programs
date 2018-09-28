@@ -1,5 +1,3 @@
-14_zig_zag_pattern.c - WAP to print array elements in zig zag fashion i.e. a < b > c < d > e < f
-
 15_steps_to_get_array.c - WAP to find the number of steps required to get an array [a, b, c...] from [0, 0, 0...]
 
 16_num_of_distinct_pairs.c - WAP to count the number of distinct pairs formed by elements in an array
