@@ -62,9 +62,6 @@
 
 60_max_diff_of_j_i.c - Find max value of (j - i) such that a[j] > a[i]
 
-61_pairs_having_given_sum_negative_nums_also.c - Print all pairs having given sum, input array can have negatives also.
-																							 - Not working with hashing method, use sorting method for this.
-
 62_is_jolly_jumper_seq.c - Find if a given sequence is jolly jumber or not, A sequence of n elements is Jolly jumber if absolute difference between adjacent elements ranges from 1 to n - 1
 
 63_subarray_having_max_prod.c - Find subarray of length k having max product
