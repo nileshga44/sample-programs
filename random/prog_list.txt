@@ -56,8 +56,6 @@
 
 54_smallest_positive_num_missing.c - Find the smallest positive number missing from an unsorted array of +ve and -ve elements
 
-55_odd_occurence_of_2_nums.c - Find 2 nunmbers from an array having odd times of occurrences with O(n) time and O(1) space
-
 57_is_subset_of_array.c - Find if arr2 is subset of arr1 - Assume both arrays as sorted, if not given sorted than sort both arrays
 
 58_find_ceil_n_floor_in_array_O_n.c - Find ceil and floor of an element x from array with complexity O(n)
