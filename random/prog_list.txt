@@ -16,8 +16,6 @@
 
 24_elements_in_gp.c - Find triplets which are in geometric progression from a sorted array in ascending order with O(n**2)
 
-27_find_2_repeating_nums_using_xor.c - Find 2 repeating elements in an array having elements from 1 to n-2, n is number of elements in a array
-
 30_indx_of_0_for_max_1_seq.c - In a array of 0 and 1, find the index of 0 which when replaced by 1 gives max sequence of 1
 
 31_max_avg_of_len_k.c - Find subarray of length k, having maximum average with O(n*k)
@@ -63,8 +61,6 @@
 54_smallest_positive_num_missing.c - Find the smallest positive number missing from an unsorted array of +ve and -ve elements
 
 55_odd_occurence_of_2_nums.c - Find 2 nunmbers from an array having odd times of occurrences with O(n) time and O(1) space
-
-56_find_2_repeating_nums_from_1_to_n.c - Find 2 repeating numbers from an array having n+2 elements elements range from 1 to n(2 nums are repeated twice, need to find that), eg : n = 5, [1,2,3,2,3], o/p - 2,3
 
 57_is_subset_of_array.c - Find if arr2 is subset of arr1 - Assume both arrays as sorted, if not given sorted than sort both arrays
 
