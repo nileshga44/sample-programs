@@ -26,8 +26,6 @@
 
 42_num_of_subarray_with_even_sum_O_n.c - Find number of sub-arrays having even sum with time complexity O(n)
 
-43_subarray_having_given_sum.c - Find subarray having given sum with complexity O(n)
-
 44_max_prod_3_increasing_nums.c - Find increasing subsequence of length with maximum product (Max(a[i]*a[j]*a[k]) where i < j < k and a[i] < a[j] < a[k])
 
 47_min_distance_bw_2_nums_O_n2.c - Find the minimum distance between 2 elements of an array
