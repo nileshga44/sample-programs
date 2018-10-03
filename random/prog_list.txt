@@ -8,8 +8,6 @@
 
 22_triplet_with_a_sum.c - Find triplets having a given sum form a sorted array
 
-24_elements_in_gp.c - Find triplets which are in geometric progression from a sorted array in ascending order with O(n**2)
-
 30_indx_of_0_for_max_1_seq.c - In a array of 0 and 1, find the index of 0 which when replaced by 1 gives max sequence of 1
 
 33_max_prod_of_triplet.c - Find the triplet having maximum product with O(n) time complexity
