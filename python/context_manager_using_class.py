@@ -10,6 +10,10 @@
 # managers.
 # If __exit__() returns True, it means that exception is handled gracefully
 # otherwise raised exception will be thrown to with statement.
+#
+# Reference:
+# http://book.pythontips.com/en/latest/context_managers.html#
+# https://docs.python.org/2/library/contextlib.html
 
 
 class File(object):
