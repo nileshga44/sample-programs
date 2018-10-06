@@ -35,7 +35,7 @@
 - [Slots usage in python](python/slots_usage.py): __slots__ usage in python, Used to save memory when large number of objects are created.
 - [Map, filter, reduce](python/map_filter_reduce.py): Map, filter and reduce in python.
 - [Singleton pattern, using __new__](python/singleton_class_using_new.py): Implement singleton in python by overwriting __new__ method.
-- [Singleton pattern, using decorator**](python/singleton_class_using_decorator.py): Implement singleton in python using decorator.
+- [Singleton pattern, using decorator\*\*](python/singleton_class_using_decorator.py): Implement singleton in python using decorator.
 - [Make class iterable](python/make_class_iterable.py): Make an user defined class iterable, define __iter__ and __next__.
 - [Define a class](python/class_defining.py): Define a class and instance methods.
 - [Data/Static class variables](python/class_data_variable.py): Create, access and update class/static variables.
@@ -55,6 +55,9 @@
 - [Thread module](python/thread_module.py): Example to show thread and lock usage in python.
 - [Custom context manager using class](python/context_manager_using_class.py): Impelement custom context manager using class.
 - [Custom context manager using contextlib](python/context_manager_using_contextlib.py): Implement custom context manager using contextlib module.
+
+## CPP
+- [Sample C++ program](cpp/main.cc): Sample C++ program.
 
 ## Others
 - [Slice and bool](slice_bool.go): Slice and bool demo in goLang.
