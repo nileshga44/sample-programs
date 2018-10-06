@@ -26,8 +26,6 @@
 
 49_min_distance_bw_2_nums_O_n_geeks.c - Find the minimum distance between 2 elements of an array with time complexity of O(n) [geeksforgeeks solution - simpler approach]
 
-50_count_num_of_zeros.c - In an array of 1's and 0's (1's followed by 0's), find the number of 0's present with O(logn) complexity
-
 51_find_smallest_missing_num_O_n.c - Find smallest missing number from a sorted array, Range of numbers is 0 to m - 1 and m > n with O(n) time
 
 52_find_smallest_missing_num_O_logn.c - Find smallest missing number from a sorted array, Range of numbers is 0 to m - 1 and m > n with O(logn) time
