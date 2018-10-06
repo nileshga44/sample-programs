@@ -12,8 +12,6 @@
 
 39_merge_RGB_and_count_min.c - From an array of characters having elements as (R, G, B) find the minimum elements left after all possible merging - Merging happens between 2 adjacent elements if they are different and becomes third type
 
-40_merge_elements_to_make_array_palindrom.c - Number of merge(sum adjacent array elements) operations to make an given array to palindrom
-
 41_num_of_subarray_with_even_sum_O_n2.c - Find number of sub-arrays having even sum
 
 42_num_of_subarray_with_even_sum_O_n.c - Find number of sub-arrays having even sum with time complexity O(n)
