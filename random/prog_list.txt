@@ -36,9 +36,6 @@
 
 63_subarray_having_max_prod.c - Find subarray of length k having max product
 
-64_divide_with_equal_0_and_1_O_n2.c - Find longest subarray having equal number of 0's and 1's from an array having elements as 0 or 1
-																		- O(n) solution also given at geeksforgeeks, didn't got it :(
-
 67_contigious_arrangement_len.c - Find the max length of sub-array that can be arranged in contigious order
 
 68_longest_span_sum_of_2_binary_arrays.c - Find the length of longest span between 2 binary arrays having same sum
