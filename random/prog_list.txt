@@ -48,8 +48,6 @@
 
 74_max_and_min_prod_of_subset.c - Find max and min product from subset of an array
 
-77_max_diff_btwn_2_elements.c - Find maximum difference between 2 array elements such that larger element appears on right of smaller element(with O(n) complexity)
-
 78_max_len_of_bitonic_subarray.c - Find maximum bitonic length of subarray(first increasing then decreasing)
 
 79_max_prod_of_subarray.c - Find maximum product of subarray from an array with O(n)
