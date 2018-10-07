@@ -28,8 +28,6 @@
 
 52_find_smallest_missing_num_O_logn.c - Find smallest missing number from a sorted array, Range of numbers is 0 to m - 1 and m > n with O(logn) time
 
-53_min_num_not_possible.c - Find the minimum number that cannot be reperesented as sum of any subarray from an given sorted array
-
 58_find_ceil_n_floor_in_array_O_n.c - Find ceil and floor of an element x from array with complexity O(n)
 
 59_find_ceil_n_floor_in_array_logn.c - Find ceil and floor of an element x from array with complexity O(logn)
