@@ -46,8 +46,6 @@
 
 79_max_prod_of_subarray.c - Find maximum product of subarray from an array with O(n)
 
-80_max_prod_of_subarray_with_2_traversal.c - Find maximum product of subarray from an array with O(n) [simpler approach as compared to above solution]
-
 81_max_sum_path_of_2_sorted_arrays.c - Find the maximum sum path of 2 sorted arrays, coplexity O(m+n)
 
 82_max_sum_with_no_adjacent_elements.c - Find the maximum sum of an array with no 2 adjacent elements included
