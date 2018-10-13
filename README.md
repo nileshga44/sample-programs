@@ -57,7 +57,7 @@
 - [Custom context manager using contextlib](python/context_manager_using_contextlib.py): Implement custom context manager using contextlib module.
 
 ## CPP
-- [Sample C++ program](cpp/main.cc): Sample C++ program.
+- [Sample C++ program](cpp/main.cc): Sample C++ program for input/output and string operations.
 
 ## Others
 - [Slice and bool](slice_bool.go): Slice and bool demo in goLang.
