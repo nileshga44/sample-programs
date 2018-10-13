@@ -32,8 +32,6 @@
 
 59_find_ceil_n_floor_in_array_logn.c - Find ceil and floor of an element x from array with complexity O(logn)
 
-63_subarray_having_max_prod.c - Find subarray of length k having max product
-
 68_longest_span_sum_of_2_binary_arrays.c - Find the length of longest span between 2 binary arrays having same sum
 
 70_max_sum_after_k_negations.c - Find maximum sum of an array after k negations
