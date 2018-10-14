@@ -34,8 +34,6 @@
 
 72_max_zeros_in_array_after_a_subarray_flip_in_O_n.c - Find the maximum number of zeros in a binary array after flipping a sub-array - O(n)
 
-73_combination_with_max_val.c - Maximize value of (a[i] - i)- (a[j] - j) in an array with O(n)
-
 78_max_len_of_bitonic_subarray.c - Find maximum bitonic length of subarray(first increasing then decreasing)
 
 81_max_sum_path_of_2_sorted_arrays.c - Find the maximum sum path of 2 sorted arrays, coplexity O(m+n)
