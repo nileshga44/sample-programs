@@ -49,9 +49,6 @@
                                               - arr1 contains all smaller elements and arr2 contains all greater elements
                                               - http://www.geeksforgeeks.org/merge-two-sorted-arrays-o1-extra-space/
 
-90_merge_array_of_size_n_to_m_plus_n.c - Merge 2 sorted arrays, one having size m+n, (m = valid values, n = NA) and other of size n
-                                       - http://www.geeksforgeeks.org/merge-one-array-of-size-n-into-another-one-of-size-mn/
-
 92_stock_buy_sell.c - find the max profit that you can make by buying and selling in those days(given in array)
                     - http://www.geeksforgeeks.org/stock-buy-sell/
 
