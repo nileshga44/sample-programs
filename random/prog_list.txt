@@ -4,8 +4,6 @@
 
 30_indx_of_0_for_max_1_seq.c - In a array of 0 and 1, find the index of 0 which when replaced by 1 gives max sequence of 1
 
-36_maximize_indx_prod_diff_min_val.c - Find max value of abs(i - j)*min(a[i], a[j]) with O(n) time complexity
-
 37_num_of_rotations_to_maximize_sum.c - Find number of right rotations required to get value of sum (i*a[i])
 
 39_merge_RGB_and_count_min.c - From an array of characters having elements as (R, G, B) find the minimum elements left after all possible merging - Merging happens between 2 adjacent elements if they are different and becomes third type
