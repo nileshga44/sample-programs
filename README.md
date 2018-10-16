@@ -34,6 +34,7 @@
 - [Connect MySQL in python](python/connect_mysql.py): Python program to connect and execute query on MySQL.
 - [Slots usage in python](python/slots_usage.py): __slots__ usage in python, Used to save memory when large number of objects are created.
 - [Map, filter, reduce](python/map_filter_reduce.py): Map, filter and reduce in python.
+- [__new__ usage](python/new_method.py): Overwriting __new__ method to implement singleton pattern.
 - [Singleton pattern, using __new__](python/singleton_class_using_new.py): Implement singleton in python by overwriting __new__ method.
 - [Singleton pattern, using decorator\*\*](python/singleton_class_using_decorator.py): Implement singleton in python using decorator.
 - [Make class iterable](python/make_class_iterable.py): Make an user defined class iterable, define __iter__ and __next__.

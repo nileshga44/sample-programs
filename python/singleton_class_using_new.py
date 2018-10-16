@@ -6,8 +6,9 @@
 # Implement singleton class.
 #
 # Approach:
-# __new__ magic function is overwritten and checked if object is already or not.
-# If created old object is returned other new object is created.
+# __new__ magic function is overwritten and checked if object is already present
+# or not. If created, old object is returned otherwise new object is created
+# and returned.
 
 
 class MySingleton(object):
