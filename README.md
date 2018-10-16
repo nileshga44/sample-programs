@@ -57,6 +57,7 @@
 - [Custom context manager using contextlib](python/context_manager_using_contextlib.py): Implement custom context manager using contextlib module.
 - [String templates](python/string_templates.py): String templates in python.
 - [Sets demo](random/sets_in_python.py): Set declaration and operations on them.
+- [class object callable](python/call_usage.py): __call__() demo, make class name and it's object callable.
 
 ## CPP
 - [Sample C++ program](cpp/main.cc): Sample C++ program for input/output and string operations.
