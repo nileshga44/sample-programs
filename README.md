@@ -59,6 +59,7 @@
 - [String templates](python/string_templates.py): String templates in python.
 - [Sets demo](python/sets_in_python.py): Set declaration and operations on them.
 - [class object callable](python/call_usage.py): __call__() demo, make class name and it's object callable.
+- [Operator overloading](python/operator_overloading.py): Operator overloading demo, show how '+' can be overloaded to add user defined objects.
 
 ## CPP
 - [Sample C++ program](cpp/main.cc): Sample C++ program for input/output and string operations.
