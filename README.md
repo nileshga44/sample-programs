@@ -60,6 +60,7 @@
 - [Sets demo](python/sets_in_python.py): Set declaration and operations on them.
 - [class object callable](python/call_usage.py): __call__() demo, make class name and it's object callable.
 - [Operator overloading](python/operator_overloading.py): Operator overloading demo, show how '+' can be overloaded to add user defined objects.
+- [Closures demo](python/closures.py): Closures demo in python.
 
 ## CPP
 - [Sample C++ program](cpp/main.cc): Sample C++ program for input/output and string operations.
