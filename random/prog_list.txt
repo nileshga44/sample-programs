@@ -47,8 +47,6 @@
 92_stock_buy_sell.c - find the max profit that you can make by buying and selling in those days(given in array)
                     - http://www.geeksforgeeks.org/stock-buy-sell/
 
-93_min_subarray_len_having_sum_greater_than_x.c - Find length of minimum subarray having sum greater than x
-
 
 Check solution which keeps track of max element:
 https://www.geeksforgeeks.org/maximum-difference-between-two-elements/
