@@ -4,8 +4,6 @@
 
 30_indx_of_0_for_max_1_seq.c - In a array of 0 and 1, find the index of 0 which when replaced by 1 gives max sequence of 1
 
-39_merge_RGB_and_count_min.c - From an array of characters having elements as (R, G, B) find the minimum elements left after all possible merging - Merging happens between 2 adjacent elements if they are different and becomes third type
-
 41_num_of_subarray_with_even_sum_O_n2.c - Find number of sub-arrays having even sum
 
 42_num_of_subarray_with_even_sum_O_n.c - Find number of sub-arrays having even sum with time complexity O(n)
