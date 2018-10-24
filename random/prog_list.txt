@@ -8,8 +8,6 @@
 
 49_min_distance_bw_2_nums_O_n_geeks.c - Find the minimum distance between 2 elements of an array with time complexity of O(n) [geeksforgeeks solution - simpler approach]
 
-52_find_smallest_missing_num_O_logn.c - Find smallest missing number from a sorted array, Range of numbers is 0 to m - 1 and m > n with O(logn) time
-
 58_find_ceil_n_floor_in_array_O_n.c - Find ceil and floor of an element x from array with complexity O(n)
 
 59_find_ceil_n_floor_in_array_logn.c - Find ceil and floor of an element x from array with complexity O(logn)
