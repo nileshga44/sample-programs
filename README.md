@@ -62,6 +62,7 @@
 - [Operator overloading](python/operator_overloading.py): Operator overloading demo, show how '+' can be overloaded to add user defined objects.
 - [Closures demo](python/closures.py): Closures demo in python.
 - [Global variables](python/global_variable.py): Declare and access global variable in python.
+- [Numpy basics](python/numpy_usage.py): Basic functions, operations in python numpy.
 
 ## CPP
 - [Sample C++ program](cpp/main.cc): Sample C++ program for input/output and string operations.
