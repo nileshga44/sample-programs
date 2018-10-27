@@ -63,6 +63,7 @@
 - [Closures demo](python/closures.py): Closures demo in python.
 - [Global variables](python/global_variable.py): Declare and access global variable in python.
 - [Numpy basics](python/numpy_usage.py): Basic functions, operations in python numpy.
+- [Pandas basics](python/pandas_usage.py): Basic functions, operations in pythons pandas.
 
 ## CPP
 - [Sample C++ program](cpp/main.cc): Sample C++ program for input/output and string operations.
