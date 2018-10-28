@@ -12,7 +12,7 @@
 
 59_find_ceil_n_floor_in_array_logn.c - Find ceil and floor of an element x from array with complexity O(logn)
 
-68_longest_span_sum_of_2_binary_arrays.c - Find the length of longest span between 2 binary arrays having same sum
+not-clear/68_longest_span_sum_of_2_binary_arrays.c - Find the length of longest span between 2 binary arrays having same sum, *28/10/2018 - moved to not-clear*
 
 70_max_sum_after_k_negations.c - Find maximum sum of an array after k negations
 
