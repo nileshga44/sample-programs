@@ -5,7 +5,9 @@
  * Sample C++ program for input/output and string operations.
  *
  * Compile:
- * g++ main.cc
+ * g++ -std=c++0x main.cc
+ *
+ * -std=c++0x is added to use standard C++11 features.
  *
  */
 
