@@ -20,6 +20,3 @@ not-clear/68_longest_span_sum_of_2_binary_arrays.c - Find the length of longest 
 
 92_stock_buy_sell.c - find the max profit that you can make by buying and selling in those days(given in array)
                     - http://www.geeksforgeeks.org/stock-buy-sell/
-
-Check solution which keeps track of max element:
-https://www.geeksforgeeks.org/maximum-difference-between-two-elements/
