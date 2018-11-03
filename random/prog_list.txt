@@ -17,6 +17,3 @@ not-clear/68_longest_span_sum_of_2_binary_arrays.c - Find the length of longest 
 89_merge_2_sorted_array_as_contigous_sorted.c - Transform 2 sorted arrays such that they are sorted in sequence.
                                               - arr1 contains all smaller elements and arr2 contains all greater elements
                                               - http://www.geeksforgeeks.org/merge-two-sorted-arrays-o1-extra-space/
-
-92_stock_buy_sell.c - find the max profit that you can make by buying and selling in those days(given in array)
-                    - http://www.geeksforgeeks.org/stock-buy-sell/
