@@ -52,3 +52,21 @@ Get weather:
 
 Save git username and password for future:
   git config credential.helper store
+
+GREP:
+  # -A, -B and -C to print lines after, before and between searched string
+  grep -A 1 "some_text" <path>  # Print 1 line after each search pattern
+  grep -B 1 "some_text" <path>  # Print 1 line before each search pattern
+  grep -C 1 "some_text" <path>  # Print 1 above and below search pattern
+
+  # -c to count occurrences
+  grep -c "some_text" <path>  # Prints counts of search string in each file
+
+  # -e to give multiple patterns
+  grep -e "text_1" -e "text_2"  # Print all lines having text_1 or text_2
+
+  # Remember last grep and use it
+  # -E to specify a regular expression
+  # * to search for 0 or 1 space
+  # \1 to search for same digit
+  grep -E '([0-9]) *\1'  # Search for consecutive same digit from 0-9
