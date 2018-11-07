@@ -1,5 +1,3 @@
-30_indx_of_0_for_max_1_seq.c - In a array of 0 and 1, find the index of 0 which when replaced by 1 gives max sequence of 1
-
 58_find_ceil_n_floor_in_array_O_n.c - Find ceil and floor of an element x from array with complexity O(n)
 
 59_find_ceil_n_floor_in_array_logn.c - Find ceil and floor of an element x from array with complexity O(logn)
