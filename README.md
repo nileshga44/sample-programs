@@ -68,6 +68,7 @@
 ## CPP
 - [Sample C++ program](cpp/main.cc): Sample C++ program for input/output and string operations.
 - [Vectors](cpp/vectors.cc): Basic functions/operations on C++ vectors.
+- [HashMaps](cpp/hashmaps.cc): Basic operations with C++ hash maps.
 
 ## Others
 - [Slice and bool](slice_bool.go): Slice and bool demo in goLang.
