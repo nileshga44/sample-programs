@@ -66,7 +66,7 @@
 - [Pandas basics](python/pandas_usage.py): Basic functions, operations in pythons pandas.
 
 ## CPP
-- [Sample C++ program](cpp/main.cc): Sample C++ program for input/output and string operations.
+- [Strings in C++](cpp/strings.cc): Basic operations with strings in C++.
 - [Vectors](cpp/vectors.cc): Basic functions/operations on C++ vectors.
 - [HashMaps](cpp/hashmaps.cc): Basic operations with C++ hash maps.
 
