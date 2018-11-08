@@ -24,6 +24,7 @@ int main() {
   string str1 = "Happy";
   string str2 = " Birthday!";
   cout << str1 + str2 << endl;  // Happy Birthday!
+  cout << str1[1] << endl;  // 'a'
 
   // Compare strings
   cout << str1.compare(str2) << endl;  // 1
@@ -32,6 +33,7 @@ int main() {
 
   // String assignment
   string newString;
+  cout << newString.empty() << endl;  // 1
   newString.assign(str1);
   cout << "newString is: " << newString << endl;  // newString is: Happy
 
