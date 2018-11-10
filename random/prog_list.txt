@@ -1,1 +1,0 @@
-not-clear/68_longest_span_sum_of_2_binary_arrays.c - Find the length of longest span between 2 binary arrays having same sum, *28/10/2018 - moved to not-clear*
