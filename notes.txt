@@ -11,7 +11,7 @@ To check ports allocated to http:
   semanage port -l | grep http
 
 To compile with pgrof:
-	Use gcc flags "-p -pg" for compiling and linking
+  Use gcc flags "-p -pg" for compiling and linking
 
 Get top output on console:
   top -b -n 1 -p <pid>
@@ -26,7 +26,7 @@ Callgrind:
   valgrind --tool=callgrind program-to-run program-arguments
   callgrind_annotate --auto=yes callgrind.out.pid
   Other options:
- 	  --tree=both (prints, for each functions, their callers and the called functions)
+    --tree=both (prints, for each functions, their callers and the called functions)
     --threshold=100 (will print all the events)
 
 CVS:
@@ -34,9 +34,9 @@ CVS:
 
 Share public key to destination machine to scp/ssh without password:
   1. Generate public key
-	  ssh-keygen
-	2. Copy generated public key to destinations authorized key:
-		cat /var/lib/jenkins/.ssh/id_rsa.pub | ssh klocwork@172.16.105.244 'cat >> .ssh/authorized_keys'
+    ssh-keygen
+  2. Copy generated public key to destinations authorized key:
+    cat /var/lib/jenkins/.ssh/id_rsa.pub | ssh klocwork@172.16.105.244 'cat >> .ssh/authorized_keys'
 
 If you have a list of directories out of which you have to delete all except one, you can use the following command:
   rm -rf !("do_not_delete_this_directory")
@@ -46,6 +46,13 @@ Block all domains:
 
 Command to see all logged in users on machine and what they are doing:
   w
+
+cut command: use -c option to print selected characters from each line
+  cut -c1  # Prints only first character of each line
+  cut -c 2,7  # Select 2nd and 7th characters
+  cut -c 2-7  # Select from 2nd to 7th character, both included
+
+  cut -d$'\t'  -f 1-3  # Cut with tab and select first 3 words(tab splitted)
 
 Get weather:
   curl wttr.in/delhi?lang=en
