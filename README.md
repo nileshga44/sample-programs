@@ -20,8 +20,8 @@
 - [Hex buffers](save_buffer.c): Prints data in structure as buffer of hex numbers.
 - [Own strcmp](str_cmp.c): strcmp implemented.
 - [Strlen in C](strlen_test.c): Few tests for strlen function behaviour.
-- [Token pasting operator in C](C-language/token_pasting_operator.c): Demo to use token pasting operator (##) in C.
-- [Hide password](C-language/hide_passwd.c): Program to hide password while typing.
+- [Token pasting operator in C](c-language/token_pasting_operator.c): Demo to use token pasting operator (##) in C.
+- [Hide password](c-language/hide_passwd.c): Program to hide password while typing.
 
 ## Python
 - [Unpack list and dictionary](python/unpack_list_dict.py): How to unpack list and dictionaries when passed as function arguments.
@@ -66,11 +66,14 @@
 - [Pandas basics](python/pandas_usage.py): Basic functions, operations in pythons pandas.
 
 ## CPP
-- [Sample C++ program](cpp/main.cc): Sample C++ program for input/output and string operations.
+- [Strings in C++](cpp/strings.cc): Basic operations with strings in C++.
+- [Vectors](cpp/vectors.cc): Basic functions/operations on C++ vectors.
+- [HashMaps](cpp/hashmaps.cc): Basic operations with C++ hash maps.
 
 ## Others
-- [Slice and bool](slice_bool.go): Slice and bool demo in goLang.
-- [Merge PDFs first page](merge_all_pdfs_first_page.sh): Script to merge first page of all PDF files found in current directory and sub-directories.
-- [Compare database](db_cmp.sh): Compares 2 sqlite3 database files.
-- [Check database integrity](db_backup.sh): Checks sqlite3 database integrity and copies from backup if corrupted.
-- [Replace strings](replace.sh): Replaces set of strings to corresponding new ones.
+- [Slice and bool](others/slice_bool.go): Slice and bool demo in goLang.
+- [Merge PDFs first page](others/merge_all_pdfs_first_page.sh): Script to merge first page of all PDF files found in current directory and sub-directories.
+- [Compare database](others/db_cmp.sh): Compares 2 sqlite3 database files.
+- [Check database integrity](others/db_backup.sh): Checks sqlite3 database integrity and copies from backup if corrupted.
+- [Replace strings](others/replace.sh): Replaces set of strings to corresponding new ones.
+- [Init and main execution](others/init_and_main.go): Show sequence of execution of init() and main()
