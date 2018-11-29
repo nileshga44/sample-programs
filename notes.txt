@@ -87,3 +87,10 @@ TR command - Translates, deletes set of characters
 
 Tab character in cut, sort commands is specified using $:
   sort -t $'\t' -k 2  # With with respect to second tab separated values
+
+
+Compress to .zip:
+  zip -r roster.zip roster.sql
+
+Decompress .zip file:
+  unzip roster.zip
