@@ -96,15 +96,26 @@ Compress to .zip:
 Decompress .zip file:
   unzip roster.zip
 
-SED:
+SED: Stream editor
     sed 's/old-string/new-string/g'  # Globally replace all old with new string
     sed 's/old/new/ig'  # i, Ignore case
     sed 's/old/new/2'  # Replace only second instance
     sed 's/str/{&}/g'  # Enclose all occurrences of str in {}
 
-AWK:
+AWK: Text formatter
     awk '{print}'  # Print everything
     awk '{print $1 $2}'  # Print only values from column 1 and 2
     awk '/xyz/ {print}'  # Print lines having string xyz
     awk '{if($4 == "") print}'  # Print columns whose 4th column is empty
     awk '{if($2 >= 10 && $3 >= 10) print $0; else print $4}'  # If-else
+
+BC: Calculator
+    echo "10 + 20" | bc  # Calculates to 30
+    bc filename.txt  # filename has mathematical expressions
+    bc  # Opens bc console
+
+ PASTE: Pastes multiple lines
+    paste file1.txt file2.txt  # Pastes each word from file1 and 2 column wise
+    paste -s file1.txt file2.txt  # Paste all lines from 1 file at a time
+    paste -d "|" file1.txt  # Use | as delimeter instead of tab(default).
+    paste file1.txt - -  # Paste 2 consecutive lines
