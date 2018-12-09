@@ -51,6 +51,7 @@ cut command: use -c option to print selected characters from each line
   cut -c1  # Prints only first character of each line
   cut -c 2,7  # Select 2nd and 7th characters
   cut -c 2-7  # Select from 2nd to 7th character, both included
+  cut -c 2-  # Select from 2nd char to end
 
   cut -d$'\t'  -f 1-3  # Cut with tab and select first 3 words(tab splitted)
 
@@ -94,3 +95,16 @@ Compress to .zip:
 
 Decompress .zip file:
   unzip roster.zip
+
+SED:
+    sed 's/old-string/new-string/g'  # Globally replace all old with new string
+    sed 's/old/new/ig'  # i, Ignore case
+    sed 's/old/new/2'  # Replace only second instance
+    sed 's/str/{&}/g'  # Enclose all occurrences of str in {}
+
+AWK:
+    awk '{print}'  # Print everything
+    awk '{print $1 $2}'  # Print only values from column 1 and 2
+    awk '/xyz/ {print}'  # Print lines having string xyz
+    awk '{if($4 == "") print}'  # Print columns whose 4th column is empty
+    awk '{if($2 >= 10 && $3 >= 10) print $0; else print $4}'  # If-else
