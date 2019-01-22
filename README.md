@@ -64,6 +64,7 @@
 - [Global variables](python/global_variable.py): Declare and access global variable in python.
 - [Numpy basics](python/numpy_usage.py): Basic functions, operations in python numpy.
 - [Pandas basics](python/pandas_usage.py): Basic functions, operations in pythons pandas.
+- [Heap module](python/heapq_module.py): heapq module in python - In built min heap.
 
 ## CPP
 - [Strings in C++](cpp/strings.cc): Basic operations with strings in C++.
