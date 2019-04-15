@@ -65,6 +65,7 @@
 - [Numpy basics](python/numpy_usage.py): Basic functions, operations in python numpy.
 - [Pandas basics](python/pandas_usage.py): Basic functions, operations in pythons pandas.
 - [Heap module](python/heapq_module.py): heapq module in python - In built min heap.
+- [Telnet module](python/check_alive_using_telnet.py): Check if (IP, PORT) is running using telnet.
 
 ## CPP
 - [Strings in C++](cpp/strings.cc): Basic operations with strings in C++.
