@@ -1,0 +1,311 @@
+g4d colab-workgroups
+g4 status
+g4 submit --tbr vdlima --tbr_reason "Needs to be submitted ASAP - HW request"
+
+Steps after new release:
+**********************************************************
+sh corp/gtech/consumers/platforms/nickfury/deploy_nickfury_server.sh --env=dev
+sh corp/gtech/consumers/platforms/nickfury/deploy_nickfury_server.sh --env=prod
+
+sh corp/gtech/consumers/platforms/nickfury/export_sites/run_export_sites_dev.sh --export_type=live
+sh corp/gtech/consumers/platforms/nickfury/export_sites/run_export_sites_dev.sh --export_type=historical
+sh corp/gtech/consumers/platforms/nickfury/export_sites/deploy_export_sites_cron_prod.sh
+
+sh corp/gtech/consumers/platforms/nickfury/pipelines/imports/run_nickfury_imports.sh --env=dev
+sh corp/gtech/consumers/platforms/nickfury/pipelines/imports/gcon/deploy_gcon_nickfury_imports_workflow.sh dev
+sh corp/gtech/consumers/platforms/nickfury/pipelines/imports/gcon/deploy_gcon_nickfury_imports_workflow.sh prod
+
+sh corp/gtech/consumers/platforms/nickfury/pipelines/exports/deploy_gcon_nickfury_exports_workflow.sh dev
+sh corp/gtech/consumers/platforms/nickfury/pipelines/exports/deploy_gcon_nickfury_exports_workflow.sh prod
+
+sh corp/gtech/consumers/platforms/nickfury/pipelines/imports/gcon/metadata/run_metadata_import_prod.sh
+sh corp/gtech/consumers/platforms/nickfury/pipelines/imports/gcon/metadata/deploy_metadata_import.sh --env=dev
+sh corp/gtech/consumers/platforms/nickfury/pipelines/imports/gcon/metadata/deploy_metadata_import.sh --env=prod
+
+sh corp/gtech/consumers/platforms/nickfury/sync_work_groups.sh --env=dev
+sh corp/gtech/consumers/platforms/nickfury/sync_work_groups.sh --env=prod
+sh corp/gtech/consumers/platforms/nickfury/deploy_update_work_group.sh --env=dev
+sh corp/gtech/consumers/platforms/nickfury/deploy_update_work_group.sh --env=prod
+
+blaze run corp/gtech/consumers/platforms/nickfury/sphinx_integration:deploy_nickfury_agent_attributes_csv_generator_script
+blaze run corp/gtech/consumers/platforms/nickfury/sphinx_integration:deploy_nickfury_agent_attributes_csv_generator_workflow_dev
+blaze run corp/gtech/consumers/platforms/nickfury/sphinx_integration:deploy_nickfury_agent_attributes_csv_generator_workflow_prod
+**********************************************************
+
+db_spec:
+  '/cloudsql/google.com/roster/us-central1/nickfury:root:dABIbh8OxLG13n63:nickfury'
+
+env:
+  prod
+select * from statement_locale l JOIN an_statement s ON l.StatementId = s.id LEFT JOIN archive_whitelist w ON l.StatementId = w.StatementId AND l.Locale = w.Locale WHERE l.visible = 1 AND date_add(now(), INTERVAL -45 day) > l.EffectiveDate AND s.affiliation_id = '1001' AND (w.StatementId IS NULL AND w.Locale IS NULL);
+
+
+alter table Users add column WorkGroup VARCHAR(100) NOT NULL DEFAULT '';
+
+drop trigger assignments_metadata_last_modified_date_updator;
+drop trigger users_after_update;
+drop trigger language_last_modified_date_updator;
+drop trigger product_last_modified_date_updator;
+drop trigger tier_last_modified_date_updator;
+
+show triggers;
+
+2^32 => 4,294,967,296 => 4 billion 294 million, 10 digit number
+
+DEBUG:
+
+=========================================================================================
+ERROR:
+
+hansrajd@hansrajd-linux:~/Downloads/google_appengine$ python appcfg.py rollback -A google.com:roster-dev -V b163651725-dev-hansrajd ~/workspace/git/roster-migration/google3/blaze-bin/corp/gtech/consumers/platforms/roster/endpoints/roster_endpoints.runfiles/
+08:03 AM Application: google.com:roster-dev (was: auto)
+08:03 AM Host: appengine.google.com
+08:03 AM Rolling back the update.
+Error 403: --- begin server output ---
+You do not have permission to modify this app (app_id=u's~google.com:roster-dev').
+--- end server output ---
+
+RESOLUTION:
+rm ~/.appcfg_oauth2_tokens
+And rollback/update again
+=========================================================================================
+
+
+Raising ticket link: guts/
+
+kanchan singh, tikona - 9015444982
+
+codelab - About tools and process:
+        https://g3doc.corp.google.com/codelab/g3doc/index.md?cl=head
+
+Creating a branch:
+        git5 start my_codelab_branch
+        or (from an existing current branch)
+        git checkout -b feature_a
+
+Code checkout or create empty directory in google3:
+        git5 track google3/experimental/users/hansrajd/git_codelab --import-empty
+
+checkout code:
+        git5 track experimental/panorama
+
+build project with blaze:
+        blaze build experimental/panorama/...
+        blaze build experimental/panorama/r360_ui:bundle
+        blaze build corp/sales/tag_verification_tool:all
+
+build local project with blaze:
+        blaze build :hello_world
+        blaze run :hello_world - Deployes the application locally
+
+Others:
+  ./app.sh - For other languages apart from go, it deployes on GAE
+  For goLang: /google/data/ro/projects/apphosting/tools/appcfg_over_stubby.par update -A <app_id> -V <version> <project_dir_containing_app_yaml>
+              /google/data/ro/projects/apphosting/tools/appcfg_over_stubby.par update blaze-bin/experimental/users/jklaas/roster/roster
+              /google/data/ro/projects/apphosting/tools/appcfg_over_stubby.par update -A google.com:roster-dev -V 1 ~/workspace/git/test/google3/blaze-bin/experimental/users/jklaas/roster/roster/
+
+              blaze run //apphosting/tools:appcfg_over_stubby -- update -A google.com:roster-dev -V hansrajd ~/workspace/git/roster/google3/blaze-bin/experimental/roster/roster/
+
+Roster: ~/workspace/git/roster/google3/experimental/roster
+  local deploy:
+    blaze build .;sleep 1;blaze run :roster_local
+
+  appengine:
+    blaze build :roster; sleep 1; echo "DEPLOY...";blaze run //apphosting/tools:appcfg_over_stubby -- update -A google.com:roster-dev -V hansrajd ~/workspace/git/roster/google3/blaze-bin/experimental/roster/roster/
+    blaze build :roster; sleep 1; echo "DEPLOY...";blaze run //apphosting/tools:appcfg_over_stubby -- update -A google.com:roster-dev -V disable-crons ~/workspace/git/announce/google3/blaze-bin/experimental/roster/roster/
+
+Roster: ~/workspace/git/roster-migration/google3/corp/gtech/consumers/platforms/roster/endpoints
+        local deploy:
+                ./app.sh
+
+        appengine - dev
+                ./app.sh deploy dev
+
+Announce:
+  Locally:
+    blaze run :announce_local
+
+  Appengine:
+    blaze build :announce; sleep 1; echo "DEPLOY...";blaze run //apphosting/tools:appcfg_over_stubby -- update -A google.com:announce-stg -V hansrajd ~/workspace/git/announce/google3/blaze-bin/experimental/announce/announce/
+
+Create/updating an CL:
+        git5 export
+
+Submit code after review and LGTM:
+        git5 submit
+
+for git5 unsync
+        git reset --hard HEAD
+        git reset --hard HEAD~1
+
+git5 patch <CL number>
+git5 patch --reverse <CL number>
+
+git5 hint --remove experimental/src experimental/dst
+
+Reverting till last check-in
+        git reset --soft HEAD~1
+
+glaze -p //experimental/roster/code/helper
+
+
+Abbreviations in vim:
+        :ab #b /****************************************/
+        Now in insert mode if we type "#b and then enter" corresponding comment
+        is automatically inserted
+
+Stubby:
+        https://g3doc.corp.google.com/codelab/stubby/g3doc/python.md?cl=head
+        https://g3doc.corp.google.com/codelab/protocolbuffers/g3doc/python.md?cl=head
+                https://engdoc.corp.google.com/eng/howto/protocolbuffers/developerguide/language.shtml?cl=head
+        code: google3/codelab/stubby/python/
+        code: google3/codelab/protocolbuffers/python
+
+Deploy gcon-nickfury using borg:
+        sh onlinesales/mediamobile/apps/nickfury/deploy_nickfury_server.sh --env='dev' --org='gcon'
+
+Export pipeline:
+        blaze build onlinesales/mediamobile/apps/nickfury/pipelines/exports/gcon:gcon_nickfury_dev_export
+        blaze-bin/onlinesales/mediamobile/apps/nickfury/pipelines/exports/gcon/gcon_nickfury_dev_export
+
+Generate coverage file:
+  blaze coverage corp/gtech/consumers/platforms/nickfury/handlers:users_handler_test   --combined_report=html
+
+Python:
+=================================================
+- Default values in a function can't be mutable as it can be updated/appended by calls to function
+- Your code should always check if __name__ == '__main__' before executing your main program so that the main program is not executed when the module is imported
+
+
+Login to mysql database - Running on other machine:
+        mysql -u root -p -h 173.194.226.160
+
+Login to mysql database - Running on same machine:
+        mysql -u root -p
+
+Take mysql backup - On other machine:
+        mysqldump -u root -p -h 173.194.226.160 --all-databases > ~/backup_files/local_mysql_bkp.sql
+
+Take mysql backup - On same machine:
+        mysqldump -u root -p --all-databases > ~/backup_files/local_mysql_bkp.sql
+
+Apply mysqldump:
+        1. Login to mysql - mysql -u root -p
+        2. source local_mysql_bkp.sql
+
+ROSTER:
+alter table account add column vendor_products varchar(255) NOT NULL;
+alter table account_log modify column new_value varchar(255) NOT NULL;
+alter table account_log modify column previous_value varchar(255) NOT NULL;
+
+alter table account drop column roll_up_0;
+alter table account drop column roll_up_1;
+alter table account drop column roll_up_2;
+
+alter table account change vendor_product vendor_products varchar(255) NOT NULL;
+
+alter table account add column training_role varchar(15) default 'Student' not null;
+alter table Languages modify column LastModifiedAt datetime default CURRENT_TIMESTAMP;
+
+patch -p4 < ~/roster_changes_for_running_locally.diff
+patch -R -p4 < ~/roster_changes_for_running_locally.diff
+
+Global logic employee id - 315562
+
+
+create table jobGroupToTier (jobGroup varchar(100) NOT NULL, tier varchar(10) NOT NULL);
+insert into jobGroupToTier values ("job-novacustomersupport-teamlead", "Tier 1");
+
+
+alter table account add column site_data_access tinyint(1) not null;
+alter table job_group_tier_mapping rename job_group_mapping;
+alter table job_group_mapping add column site_data_access tinyint(1) not null;
+alter table account add column supported_region varchar(50) not null default '';
+alter table Users add column SupportedRegion varchar(10) not null default '';
+
+update job_group_mapping set site_data_access=0;
+
+update job_group_mapping set site_data_access=1 where job_group='job-novacustomersupport-teamlead';
+
+Command to change column name:
+alter table account change column site_level_pulse_dashboard_access site_data_access tinyint(1) not null;
+
+send: 'POST /api/v2/users?api_key=25e8fab1-8bfd-4712-842a-bba2f7b98a33 HTTP/1.1\r\nAccept-Encoding: identity\r\nContent-Length: 79\r\nHost: googlesandbox.exceedlms.com\r\nAccept: application/json\r\nUser-Agent: Python-urllib/2.7\r\nConnection: close\r\nContent-Type: application/json\r\n\r\npassword=ldap&first_name=name&last_name=last&login=ldap&email=ldap%40google.com'
+
+> POST /api/v2/users?api_key=25e8fab1-8bfd-4712-842a-bba2f7b98a33 HTTP/1.1
+> User-Agent: curl/7.35.0
+> Host: googlesandbox.exceedlms.com
+> Content-type: application/json
+> Accept: application/json
+> Content-Length: 102
+
+
+create table intellum (id bigint unsigned not null auto_increment, enrollment_id bigint unsigned not null, user_name varchar(50) not null, course_name varchar(255) not null, primary key (id), unique (enrollment_id));
+
+
+g4 setup:
+
+create a g4 client:
+        g4d -f keystore-file-select
+
+Associate branch to g4 client:
+        g4 client -b gcon_nickfury_dev_branch
+
+View client details:
+        g4 client -o
+
+g4 sync
+
+Apply patch:
+        g4 client --set_option allwrite
+        g4d /..
+        g4 pack -Na -c 160376027 | patch -p0
+        g4 reopen
+        g4 change
+
+Open g4d workspace:
+  g4d hansrajd-linux-hansrajd-workspace-git-forked-nickfury-test-users-handler-git5
+
+
+cdpush set_push_def --dry_run google3/configs/production/cdpush/gcon-roster/metadata_config.gcl
+
+keystore generation:
+https://sites.google.com/a/google.com/keystore/documentation/cookbook
+
+Create placer path: https://sites.google.com/a/google.com/placer/users/getting-started
+export materialize_owner_group=gcon-roster
+/google/data/ro/projects/placer/placer setup_delegation /placer/dev gcon-roster
+/google/data/ro/projects/placer/placer update_alloc /placer/dev ${materialize_owner_group}:dremel --replicas=iq-d
+/google/data/ro/projects/placer/placer update_config --user=${materialize_owner_group} --group=${materialize_owner_group} --alloc ${materialize_owner_group}:dremel /placer/dev/home/${materialize_owner_group}/lms/rosters/admins/
+
+
+/google/src/cloud/hansrajd/hansrajd-linux-hansrajd-workspace-git-map-nickfury-branch-to-google3-map-branch-git5/google3/corp/gtech/consumers/platforms/nickfury
+/google/src/cloud/hansrajd/deploy_test/google3/onlinesales/mediamobile/apps/nickfury
+
+update account set roster_role='Affiliation Administrator', person_type='employee' where user_name in ('hansrajd', 'kumanjay', 'pratibhag');
+
+alter table Users add column UserName varchar(50) NOT NULL;
+alter table Users add column CountryCode varchar(10) NOT NULL;
+alter table Users add column AgentRegion varchar(10) NOT NULL;
+alter table Users add column Site varchar(100) NOT NULL;
+alter table Users add column TrainingRole varchar(15) default 'student' NOT NULL;
+alter table Users add column VendorTeamLead varchar(50) NOT NULL;
+alter table Users add column VendorChannel varchar(100) NOT NULL;
+alter table Users add column SupportedRegion varchar(100) NOT NULL;
+alter table Users drop column RoomCode;
+
+
+ssh on borg machine:
+  prodaccess -s
+  borgssh --nosafety 0.gcon_nickfury_dev.gcon-roster.lq.borg.google.com
+
+Restart all instances of a borg job:
+  borg --borg=oregon --user=gcon-roster restarttask --name=gcon_nickfury_prod all
+
+=============================
+- Mere kuch sawaal hai jo sirf kamayat pe waqt poochunga tumhse kyo usse pehle tumhaari aur meri baat ho saake, iss layak nahi hu tum
+- Mai iss umeed mai dooba ki wo bacha lega, ab iske baad mera imtehaan kya lega
+- Bahut Nakamio par aap apni naaz karte hai...abhi dekhi kha hai aapne naakaamiya meri
+- yun to bhoole hai hame log kayi pehle bhi bahut se...par tum jitna pehle kabhi koi yaad nahi aaya
+- wo titli ki tarah aayi, aur zindagi ko baagh kar gayi...mere jitne napaak the iraade, unhe bhi paak kar gayi
+
