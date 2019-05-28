@@ -114,8 +114,12 @@ BC: Calculator
     bc filename.txt  # filename has mathematical expressions
     bc  # Opens bc console
 
- PASTE: Pastes multiple lines
+PASTE: Pastes multiple lines
     paste file1.txt file2.txt  # Pastes each word from file1 and 2 column wise
     paste -s file1.txt file2.txt  # Paste all lines from 1 file at a time
     paste -d "|" file1.txt  # Use | as delimeter instead of tab(default).
     paste file1.txt - -  # Paste 2 consecutive lines
+
+Useful links:
+  https://github.com/jlevy/the-art-of-command-line
+  https://clementc.github.io/blog/2018/01/25/moving_cli/
