@@ -148,12 +148,6 @@ Reverting till last check-in
 
 glaze -p //experimental/roster/code/helper
 
-
-Abbreviations in vim:
-        :ab #b /****************************************/
-        Now in insert mode if we type "#b and then enter" corresponding comment
-        is automatically inserted
-
 Stubby:
         https://g3doc.corp.google.com/codelab/stubby/g3doc/python.md?cl=head
         https://g3doc.corp.google.com/codelab/protocolbuffers/g3doc/python.md?cl=head
@@ -170,12 +164,6 @@ Export pipeline:
 
 Generate coverage file:
   blaze coverage corp/gtech/consumers/platforms/nickfury/handlers:users_handler_test   --combined_report=html
-
-Python:
-=================================================
-- Default values in a function can't be mutable as it can be updated/appended by calls to function
-- Your code should always check if __name__ == '__main__' before executing your main program so that the main program is not executed when the module is imported
-
 
 Login to mysql database - Running on other machine:
         mysql -u root -p -h 173.194.226.160
@@ -210,9 +198,6 @@ alter table Languages modify column LastModifiedAt datetime default CURRENT_TIME
 patch -p4 < ~/roster_changes_for_running_locally.diff
 patch -R -p4 < ~/roster_changes_for_running_locally.diff
 
-Global logic employee id - 315562
-
-
 create table jobGroupToTier (jobGroup varchar(100) NOT NULL, tier varchar(10) NOT NULL);
 insert into jobGroupToTier values ("job-novacustomersupport-teamlead", "Tier 1");
 
@@ -229,16 +214,6 @@ update job_group_mapping set site_data_access=1 where job_group='job-novacustome
 
 Command to change column name:
 alter table account change column site_level_pulse_dashboard_access site_data_access tinyint(1) not null;
-
-send: 'POST /api/v2/users?api_key=25e8fab1-8bfd-4712-842a-bba2f7b98a33 HTTP/1.1\r\nAccept-Encoding: identity\r\nContent-Length: 79\r\nHost: googlesandbox.exceedlms.com\r\nAccept: application/json\r\nUser-Agent: Python-urllib/2.7\r\nConnection: close\r\nContent-Type: application/json\r\n\r\npassword=ldap&first_name=name&last_name=last&login=ldap&email=ldap%40google.com'
-
-> POST /api/v2/users?api_key=25e8fab1-8bfd-4712-842a-bba2f7b98a33 HTTP/1.1
-> User-Agent: curl/7.35.0
-> Host: googlesandbox.exceedlms.com
-> Content-type: application/json
-> Accept: application/json
-> Content-Length: 102
-
 
 create table intellum (id bigint unsigned not null auto_increment, enrollment_id bigint unsigned not null, user_name varchar(50) not null, course_name varchar(255) not null, primary key (id), unique (enrollment_id));
 
@@ -301,11 +276,3 @@ ssh on borg machine:
 
 Restart all instances of a borg job:
   borg --borg=oregon --user=gcon-roster restarttask --name=gcon_nickfury_prod all
-
-=============================
-- Mere kuch sawaal hai jo sirf kamayat pe waqt poochunga tumhse kyo usse pehle tumhaari aur meri baat ho saake, iss layak nahi hu tum
-- Mai iss umeed mai dooba ki wo bacha lega, ab iske baad mera imtehaan kya lega
-- Bahut Nakamio par aap apni naaz karte hai...abhi dekhi kha hai aapne naakaamiya meri
-- yun to bhoole hai hame log kayi pehle bhi bahut se...par tum jitna pehle kabhi koi yaad nahi aaya
-- wo titli ki tarah aayi, aur zindagi ko baagh kar gayi...mere jitne napaak the iraade, unhe bhi paak kar gayi
-
