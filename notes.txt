@@ -123,3 +123,12 @@ PASTE: Pastes multiple lines
 Useful links:
   https://github.com/jlevy/the-art-of-command-line
   https://clementc.github.io/blog/2018/01/25/moving_cli/
+
+OPEN_SSL:
+1. Create private key and certificate signing request. Below command creates 2 files - domain.key has private key and domain.csr is certificate signing request file.
+  openssl req -newkey rsa:2048 -nodes -keyout domain.key -out domain.csr
+
+2. Check open ssl connection and fetch all certificates including all intermediates
+  openssl s_client -connect <hostname>:<port-number>
+
+3. Other commands: https://www.sslshopper.com/article-most-common-openssl-commands.html
