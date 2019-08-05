@@ -120,6 +120,10 @@ PASTE: Pastes multiple lines
     paste -d "|" file1.txt  # Use | as delimeter instead of tab(default).
     paste file1.txt - -  # Paste 2 consecutive lines
 
+GDB:
+  Run a binary in gdb with command line args:
+    gdb --args python -V
+
 Useful links:
   https://github.com/jlevy/the-art-of-command-line
   https://clementc.github.io/blog/2018/01/25/moving_cli/
