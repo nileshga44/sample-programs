@@ -22,6 +22,7 @@
 - [Strlen in C](strlen_test.c): Few tests for strlen function behaviour.
 - [Token pasting operator in C](c-language/token_pasting_operator.c): Demo to use token pasting operator (##) in C.
 - [Hide password](c-language/hide_passwd.c): Program to hide password while typing.
+- [Multithreading in c](c-language/multithreading_sample.c): Sample program to create threads in C.
 
 ## Python
 - [Unpack list and dictionary](python/unpack_list_dict.py): How to unpack list and dictionaries when passed as function arguments.
