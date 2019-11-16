@@ -139,3 +139,10 @@ OPEN_SSL:
 
 Open a file in default application(like pdf):
   gio open <path to pdf file>
+
+AB load testing tool for HTTP(s) based applications
+  ab -k -c 2 -n 10 -s 60 http://example.com/
+  -k, keep alive
+  -c, concurrent connections
+  -n, total number of requests to be sent
+  -s, timeout in seconds for ab to complete analysis(by default it is 30)

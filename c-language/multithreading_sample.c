@@ -25,7 +25,10 @@ void *mythread(void *vargp) {
 int main() {
   pthread_t thread_id;
   printf("Before pthread_create\n");
-  pthread_create(&thread_id, NULL, mythread, NULL);
+  pthread_create(&thread_id,
+                 NULL,  // Use default attributes
+                 mythread,  // Function name
+                 NULL);  // Used to pass arguments to mythread function
   printf("After pthread_create\n");
   pthread_join(thread_id, NULL);
   return 0;
