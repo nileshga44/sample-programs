@@ -29,6 +29,7 @@
 - [Send mail using SMTP](python/sendmail.py): Script to send mail using SMTP from linux machine.
 - [Pass string values to SQL query](python/string_params_in_sql.py): Pass multiple string parameters to SQL query.
 - [Function pointer in python](python/python_function_pointer.py): Simulate function pointer(as in C language) in python.
+- [Memoization using function](python/memoization_using_function.py): Program to show memoization using function decorator.
 - [Fibonacci number, memoization using class](python/memoization_using_class.py): Performance comparison to find nth fibonacci(using recursive approach) number with and without memoization.
 - [Named-tuples](python/named_tuple.py): Few snippets to work with named tuples in python.
 - [Optional mutable arguments](python/mutable_default_arguments.py): Optional mutable arguments retains its value in subsequent calls.
