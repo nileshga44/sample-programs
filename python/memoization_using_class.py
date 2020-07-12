@@ -20,7 +20,7 @@ class Memoize(object):
     """
     self.f = f
     self.memo = {}
-    print 'Calling __init__()'
+    print('Calling __init__()')
 
   def __call__(self, *args):
     """Calls the actual function if output is not stored for a input.
@@ -45,11 +45,11 @@ def fib(num):
   return fib(num - 1) + fib(num - 2)
 
 
-print datetime.now()
-print fib(36)
-print datetime.now()
-print fib_memoized(36)
-print datetime.now()
+print(datetime.now())
+print(fib(36))
+print(datetime.now())
+print(fib_memoized(36))
+print(datetime.now())
 
 
 # Output:
