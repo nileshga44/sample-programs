@@ -1,7 +1,7 @@
 #!/bin/bash
 
 LAST_N_TAGS=25
-for tag in `git tag | sort -r | head -"$LAST_N_TAGS"`
+for tag in `git tag --sort=taggerdate | tail -"$LAST_N_TAGS" | tac`
 do
     tag_name=`git cat-file tag $tag 2> /dev/null | head -3 | tail -1`
     if [ "$tag_name" ]; then
