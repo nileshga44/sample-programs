@@ -7,22 +7,22 @@
 
 
 x = 10
-print 'At starting, x =  %d' % x
+print('At starting, x =  %d' % x)
 
-def fun():
+def change_global_variable():
     # Use 'global' keyword to refer global variable, otherwise it will be
     # treated as local
     global x
-    print 'In fun x =  %d ' % x
+    print('In change_global_variable x =  %d ' % x)
     x = 20
 
 
-fun()
-print 'After calling fun(), x = %d' % x
+change_global_variable()
+print('After calling change_global_variable(), x = %d' % x)
 
 
 # Output:
 # --------------
 # At starting, x =  10
-# In fun x =  10
-# After calling fun(), x = 20
+# In change_global_variable x =  10
+# After calling change_global_variable(), x = 20
